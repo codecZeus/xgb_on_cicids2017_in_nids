@@ -1,0 +1,220 @@
+\section{Background}
+
+As the internet and interconnected systems have become integral to contemporary life—impacting communication, commerce, entertainment, and critical infrastructure—the imperative for robust cybersecurity measures has grown decisively. Among these, \emph{Intrusion Detection Systems} (IDS) occupy a pivotal role by continuously monitoring systems and networks for malicious activity or policy violations.
+
+\subsection{Intrusion Detection Systems (IDS) and Network IDS (NIDS)}
+
+An \emph{Intrusion Detection System} (IDS) is a security tool—either software or hardware—that observes network traffic or system behaviour and alerts administrators to potential breaches or anomalies \parencite{turn0search12}. Within this category, two principal subtypes exist:
+
+\begin{itemize}
+  \item \textbf{Host-Based Intrusion Detection Systems (HIDS)}, monitoring activity on individual devices—such as file integrity, system calls, and logs—for suspicious changes or misuse \parencite{turn0search12}.
+  \item \textbf{Network-Based Intrusion Detection Systems (NIDS)}, analysing traffic across networks to identify threats like port scans, denial-of-service attacks, or malware communication \parencite{turn0search12}.
+\end{itemize}
+
+\subsection{Types of IDS by Detection Technique}
+
+IDSs may further be categorised by their detection methods:
+
+\begin{itemize}
+  \item \textbf{Signature-Based Detection} (misuse detection): operates by matching observed patterns against a database of known threat signatures. While highly effective for known threats, it fails to recognise zero-day or novel attacks.
+  \item \textbf{Anomaly-Based Detection}: builds a model of normal system or network behaviour and flags deviations. This approach can detect previously unseen attacks, but may suffer from higher false positive rates due to dynamic baseline shifts.
+  \item \textbf{Hybrid Detection}: blends both signature-based and anomaly-based strategies, aiming to combine accurate detection of known threats with adaptability to new threats. However, hybrid systems are more complex to configure and maintain.
+\end{itemize}
+
+\subsection{The XGBoost Algorithm}
+
+\emph{Extreme Gradient Boosting} (XGBoost) is a high-performance ensemble learning method based on gradient-boosted decision trees. It has become very popular due to its efficiency, scalability, and strong performance in structured data scenarios.
+
+\subsubsection{Key Features of XGBoost}
+
+XGBoost distinguishes itself through several enhancements:
+
+\begin{itemize}
+  \item \textbf{Regularisation}: includes L1 and L2 regularisation to reduce overfitting \parencite{turn0search0}.
+  \item \textbf{Parallel Processing}: supports construction of trees using multiple CPU cores, significantly improving training speed \parencite{turn0search0}.
+  \item \textbf{Sparse-Awareness and Missing Value Handling}: adept at handling missing or sparse data without preprocessing \parencite{turn0search0}.
+  \item \textbf{Efficient Tree Pruning}: uses maximum depth plus backward pruning to control model complexity \parencite{turn0search0}.
+  \item \textbf{Cross-Validation and Early Stopping}: built-in capabilities to tune hyperparameters and avoid unnecessary training \parencite{turn0search0}.
+  \item \textbf{Wide Integration and Portability}: available across languages (Python, R, C++, Java) and platforms, including cloud and distributed computing environments \parencite{turn0search0}.
+\end{itemize}
+
+\subsubsection{Mathematical Foundations}
+
+XGBoost minimises an objective function composed of a training loss term and a regularisation term. New trees are added sequentially, with each tree optimised according to the gradient (and often, the Hessian) of the loss with respect to the current model output, enabling efficient boosting and improved generalisation \parencite{turn0search0}.
+
+\subsection{Efficacy of XGBoost in NIDS}
+
+Applying XGBoost within NIDS offers several specific advantages:
+
+\paragraph{Performance on Tabular Data} Network intrusion detection datasets—such as CIC-IDS2017—are flow-based and highly structured. XGBoost excels in modelling tabular data and can capture complex interactions between features without extensive preprocessing.
+
+\paragraph{Handling Class Imbalance} Intrusion datasets often have far fewer attack examples than benign traffic. XGBoost allows adjustment of instance weights and loss functions to address this imbalance. Moreover, combining it with sampling techniques such as SMOTE improves its detection of rare attack types \parencite{turn0search11}.
+
+\paragraph{Feature Importance and Interpretability} By underlining which features contribute most to detection, XGBoost offers insight into which traffic characteristics are most indicative of attacks—informing both cybersecurity understanding and further feature engineering.
+
+\paragraph{Scalability and Speed} Network environments generate large volumes of data at high velocity. XGBoost’s efficient computation and parallelisation make it suitable for large-scale, time-sensitive IDS applications \parencite{turn0search0}.
+
+\paragraph{Empirical Effectiveness} Several studies have demonstrated XGBoost’s strong performance in intrusion detection contexts:
+
+\begin{itemize}
+  \item Dhaliwal et al.\ applied XGBoost to the NSL-KDD dataset, achieving high accuracy and efficiency, while noting its resilience to overfitting and suitability for real-world IDS challenges \parencite{turn0search0}.
+  \item Onyebueke et al.\ report that XGBoost achieved near-perfect metrics (accuracy, precision, recall, F1-score) on UNSW-NB15 and KDD datasets when coupled with appropriate preprocessing and SMOTE \parencite{turn0search1}.
+  \item Fan and You (2024) found that XGBoost, along with Random Forest and Decision Tree, produced superior intrusion detection performance compared to SVM and Naïve Bayes on relevant datasets \parencite{turn0search3}.
+  \item More recently, Yuan and Yang (2025) applied mutual information-based feature selection using XGBoost within a deep learning IDS framework, demonstrating effectiveness and model efficiency in detecting advanced threats \parencite{turn0search5}.
+\end{itemize}
+
+\subsection{Summary}
+
+In summation, IDS—particularly NIDS—play a critical role in identifying potential cyber threats. XGBoost stands out as a compelling machine learning tool for NIDS due to its accuracy, scalability, balance in handling class imbalance, interpretability, and demonstrated empirical success. Its alignment with the characteristics of network intrusion data suggests that it is highly suitable for enhancing real-world intrusion detection systems.
+
+
+@misc{wikipedia_ids,
+  title = {Intrusion detection system},
+  howpublished = {\url{https://en.wikipedia.org/wiki/Intrusion_detection_system}},
+  note = {Accessed 2025-08-14}
+}
+
+@article{dhaliwal2018ids,
+  author = {Dhaliwal, Sukhpreet Singh and Nahid, Abdullah-Al and Abbas, Robert},
+  title = {Effective Intrusion Detection System Using XGBoost},
+  journal = {Information},
+  volume = {9},
+  number = {7},
+  pages = {149},
+  year = {2018},
+  doi = {10.3390/info9070149}
+}
+
+@article{onyebueke2023nids,
+  author = {Onyebueke, Agu Edward and David, Addakenjo Ali and Munu, Stephen},
+  title = {Network Intrusion Detection System Using XGBoost and Random Forest Algorithms},
+  journal = {Asian Journal of Pure and Applied Mathematics},
+  volume = {5},
+  number = {1},
+  pages = {321–335},
+  year = {2023}
+}
+
+@article{fan2024xgboost,
+  author = {Fan, Zhihui and You, Zhixuan},
+  title = {Research on network intrusion detection based on XGBoost algorithm and multiple machine learning algorithms},
+  journal = {Theoretical and Natural Science},
+  volume = {31},
+  pages = {161–166},
+  year = {2024}
+}
+
+@article{yuan2025deep,
+  author = {Yuan, M. and Yang, K.},
+  title = {Deep Learning Network Intrusion Detection Based on MI-XGBoost Feature Selection},
+  journal = {Journal of Cyber Security},
+  volume = {7},
+  number = {1},
+  pages = {197–219},
+  year = {2025},
+  doi = {10.32604/jcs.2025.066089}
+}
+
+
+
+
+
+
+Certainly! Below is an elaborated version of your **Background** section, expanded to approximately **1,500–2,000 words**. It is written at a **C1 CEFR English level** and maintains a **formal, academic tone** while sounding human and natural in expression. The structure follows your requested points:
+
+---
+
+## **Background**
+
+As digital systems and the internet become increasingly integrated into every aspect of daily life, from personal communication to government operations and critical infrastructure, the need for robust cybersecurity solutions has grown significantly. With this digital transformation, the number and complexity of cyber threats have also increased, making it essential to develop efficient and adaptive mechanisms for detecting and responding to attacks. One of the most fundamental tools in the defence against such threats is the **Intrusion Detection System (IDS)**. IDS technologies are designed to monitor and analyse system or network activities for signs of malicious behaviour, policy violations, or abnormal patterns that could indicate a security breach.
+
+Among the different forms of IDS, **Network Intrusion Detection Systems (NIDS)** are particularly crucial, as they focus specifically on network traffic. In recent years, the effectiveness of traditional IDS methods has been increasingly challenged by the evolving sophistication of cyberattacks. To address this, researchers and practitioners have explored the use of **machine learning (ML)** and, more specifically, ensemble algorithms such as **XGBoost**, to enhance the performance and adaptability of NIDS. This section provides a comprehensive overview of IDS, its various types, the functioning of XGBoost, and the rationale for its application in the context of network intrusion detection.
+
+---
+
+### **1. What is an Intrusion Detection System (IDS)?**
+
+An **Intrusion Detection System (IDS)** is a security solution designed to monitor network or system activities for signs of suspicious behaviour. It serves as a crucial component in the cybersecurity architecture of organisations by acting as a surveillance mechanism that can detect potential threats or policy violations. When such activities are identified, the IDS typically alerts system administrators, enabling them to respond promptly to potential intrusions.
+
+IDSs operate based on a set of predefined rules, signatures, or behavioural models, depending on their design. Their main objective is to ensure the **confidentiality, integrity, and availability (CIA)** of information systems. By analysing traffic data, system logs, or user behaviour, IDSs help organisations detect both external and internal threats. These systems are often deployed alongside firewalls, antivirus software, and other security tools as part of a multi-layered defence strategy.
+
+---
+
+### **2. Types of Intrusion Detection Systems**
+
+IDSs can be classified based on the data they analyse and the detection techniques they employ. The two primary classifications are **based on the source of data** (i.e., where the detection is applied) and **based on the method of detection**.
+
+#### **2.1 Based on Data Source**
+
+1. **Host-Based Intrusion Detection Systems (HIDS)**
+   HIDS monitors activities on a specific device or host. It analyses data such as system logs, file integrity, running processes, and configuration changes. HIDS is particularly effective for detecting unauthorised changes made to the system by internal users or malicious software. However, it may be limited in detecting network-wide threats.
+
+2. **Network-Based Intrusion Detection Systems (NIDS)**
+   NIDS monitors traffic across an entire network. It captures and inspects packets travelling through the network in real-time or near real-time. NIDS is well-suited for identifying external threats such as port scans, denial-of-service (DoS) attacks, or malware attempting to communicate with command-and-control servers. Unlike HIDS, NIDS offers broader visibility but may struggle to detect attacks that originate within encrypted traffic or on a local machine.
+
+#### **2.2 Based on Detection Technique**
+
+1. **Signature-Based Detection**
+   Also known as misuse detection, this approach compares observed activities to a database of known attack signatures. It is highly effective in identifying previously encountered threats with well-defined patterns. However, it is ineffective against new, unknown, or evolving attacks (i.e., zero-day threats), as it cannot detect what it has not seen before.
+
+2. **Anomaly-Based Detection**
+   This technique creates a model of "normal" system or network behaviour and flags deviations as potentially malicious. It is particularly useful for detecting novel or sophisticated attacks. However, one of its main challenges is maintaining an accurate baseline of normal activity, as networks are dynamic and complex. It also tends to generate higher false positive rates compared to signature-based systems.
+
+3. **Hybrid Detection**
+   Hybrid IDS combines both signature-based and anomaly-based detection methods, aiming to leverage the strengths of both approaches. This allows for a more balanced detection capability—effectively identifying known threats while also adapting to previously unseen attacks. However, such systems are often more complex to configure and maintain.
+
+---
+
+### **3. Introduction to XGBoost Algorithm**
+
+**Extreme Gradient Boosting (XGBoost)** is a highly efficient and scalable implementation of the gradient boosting framework. Developed by Tianqi Chen and made widely popular through its success in data science competitions such as those hosted on Kaggle, XGBoost is designed to optimise both speed and performance. It is particularly effective in handling structured (tabular) data and has become a leading choice in many machine learning applications, including those in cybersecurity.
+
+#### **3.1 Key Concepts in Gradient Boosting**
+
+To understand XGBoost, it is helpful to first grasp the concept of **gradient boosting**. In traditional supervised learning, algorithms attempt to learn the relationship between input features and a target output. Gradient boosting enhances this process by combining multiple weak learners (usually decision trees) in a sequential manner. Each new tree is trained to correct the errors made by the previous trees, gradually improving the overall model performance.
+
+The idea is to **minimise a loss function** (e.g., mean squared error or log loss) by computing the gradient of the loss with respect to the model’s predictions and updating the model to reduce that error.
+
+#### **3.2 Features of XGBoost**
+
+XGBoost introduces several optimisations and enhancements that distinguish it from standard gradient boosting methods:
+
+* **Regularisation**: XGBoost includes both L1 (Lasso) and L2 (Ridge) regularisation techniques to prevent overfitting, which is particularly useful in high-dimensional datasets.
+* **Parallel Processing**: The algorithm supports parallelised tree construction, significantly reducing training time.
+* **Handling Missing Data**: It automatically learns the best direction to take when it encounters missing values.
+* **Tree Pruning**: XGBoost uses a “maximum depth” and “prune after” approach, allowing it to discard branches that do not contribute to reducing the loss function.
+* **Cross-Validation and Early Stopping**: Built-in features make it easier to tune hyperparameters and prevent unnecessary training.
+
+These features make XGBoost a robust and efficient choice for various classification and regression tasks, particularly when interpretability and performance are both required.
+
+---
+
+### **4. The Effectiveness of XGBoost in Network Intrusion Detection Systems (NIDS)**
+
+Applying machine learning to NIDS involves training models on historical network traffic data to detect patterns associated with malicious behaviour. The challenge lies in the nature of network data: it is often high-dimensional, imbalanced (i.e., with far more benign samples than malicious ones), and may include noise, missing values, or redundant information. XGBoost is well-suited to handle these challenges for several reasons.
+
+#### **4.1 High Performance on Tabular Data**
+
+Network intrusion detection datasets, such as CIC-IDS2017, consist of flow-based features—structured tabular data derived from network sessions. XGBoost excels in such settings because it is inherently designed to model structured data. It can capture complex non-linear relationships between features without the need for extensive feature engineering or transformation.
+
+#### **4.2 Handling Class Imbalance**
+
+One of the key challenges in NIDS is the **class imbalance problem**, where attack instances are vastly outnumbered by normal traffic. Standard classifiers tend to be biased toward the majority class, leading to poor detection of rare attack types. XGBoost addresses this issue through **weighting mechanisms** and **objective function adjustments**, allowing the model to penalise misclassifications of minority classes more heavily. Additionally, techniques such as **SMOTE (Synthetic Minority Over-sampling Technique)** or **undersampling** can be combined with XGBoost for improved balance.
+
+#### **4.3 Feature Selection and Interpretability**
+
+XGBoost inherently performs feature selection during training by choosing splits that result in the greatest reduction in loss. This not only improves model performance but also contributes to model interpretability—a crucial aspect in security, where understanding the reasoning behind a detection is often as important as the detection itself.
+
+Feature importance rankings generated by XGBoost can offer valuable insights into which aspects of the network traffic are most indicative of specific attacks, aiding both in the tuning of detection models and in understanding attacker behaviour.
+
+#### **4.4 Scalability and Efficiency**
+
+Modern network environments generate vast volumes of data at high speed. In such environments, detection systems must be both **scalable** and **fast**. Thanks to its parallel computing capabilities and efficient memory usage, XGBoost can be scaled to large datasets like CIC-IDS2017 and trained in reasonable timeframes, even on modest hardware.
+
+Moreover, once trained, XGBoost models are relatively lightweight and fast to execute, making them suitable candidates for integration into near real-time intrusion detection pipelines.
+
+#### **4.5 Empirical Evidence in Cybersecurity Research**
+
+Numerous studies have demonstrated the superior performance of XGBoost in intrusion detection tasks. For instance, comparative analyses have shown that XGBoost often outperforms traditional models like Decision Trees, Random Forests, and Support Vector Machines in terms of precision, recall, and F1-score. Its ability to generalise well across multiple attack types and reduce false positives makes it a valuable tool in building practical, data-driven NIDS.
+
+---

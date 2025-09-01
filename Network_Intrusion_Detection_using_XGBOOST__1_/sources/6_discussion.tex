@@ -1,0 +1,47 @@
+\subsection{Interpretation of Results} 
+
+In this section, we present our interpretation of the main results that were shown in Chapter 4. We start with an analysis of how well our NIDS methodology worked based on the results of that analysis, then briefly re-address the research questions from Chapter 1 and try to provide answers to them based on these results, compare the results we obtained with the results of other similar works, and finally, we address some of the limitations of our work.
+
+In terms of how well the proposed NIDS methodology has worked based on the results of that analysis, we can say that, overall, it has done an excellent job of fulfilling its intended role. In particular, the model’s high F1-scores on different attack types, along with very high recall rates for each of those attack classes, even for the rarer attack types, show that the XGBoost model has indeed learned to identify different intrusions. The performance of this model in turn is directly related to the quality of the features used to train it, which in this work came from CICFlowMeter, as well as the data pre-processing performed on that data.
+
+In addition, the class balancing technique in the form of the SMOTETomek strategy that we have applied has proven to be very effective in dealing with one of the most critical issues of the CIC-IDS2017 dataset, namely, its large class imbalance in the number of samples in different categories. By re-sampling that dataset in the way described in Chapter 3, we were able to make it possible for the model to learn to recognize those rarer attack types, which otherwise, without this balancing step, it would not be able to do, as it would simply end up always predicting the class that is in the majority in the training set. This, in turn, helped to get this extremely low FP Rate, which, in a practical setting, is just as, if not more, important as high true positive rate, as the network administrators responsible for monitoring the system’s output and taking appropriate action based on it cannot be expected to tolerate too many false alarms.
+
+Finally, the feature importance results presented earlier in this chapter also provide some valuable information about how the XGBoost model makes its decisions and the nature of the data it is given. In particular, the fact that the features found to be the most informative by the XGBoost model in practice are those that directly relate to the packet count and data volume in network flows provides a strong confirmation of the validity of the main hypothesis about the ability of the high-level flow features to be used to distinguish between benign and malicious network traffic. At the same time, the use of SHAP values to further analyze the trained model and directly visualize the individual feature values’ contributions to the final model output for each data sample provide an additional link between the model’s predictions and the real, expert knowledge about how different features of the network flows are supposed to correlate with different attack classes.
+
+\subsection{Answering Research Questions} 
+
+This section presents the answers to the research questions posed in Chapter 1, in the form of subsections of this section of the chapter. Those research questions and our answers to them, in the form of a list, are presented below. The actual justification for each of those answers was, however, given in the previous subsection.
+
+\begin{itemize} 
+\item \textbf{Research Question 1: } The optimized XGBoost model can be used for the intended task of classifying different types of network intrusions on the CIC-IDS2017 dataset with a high Macro-averaged F1-score of $0.98$.
+\item \textbf{Research Question 2: } The data pre-processing techniques described and applied in Chapter 3, and especially the class balancing one in the form of the SMOTETomek strategy, have had a significant positive impact on the final performance of the XGBoost model.
+\item \textbf{Research Question 3: } A detailed performance comparison, as described in Section 6.4 and shown in Figure \ref{fig:comparative_performance_summary}, has confirmed that, indeed, the XGBoost model, especially the one optimized in Section 6, outperforms other state-of-the-art ML algorithms in terms of multi-class NIDS on the CIC-IDS2017 dataset.
+\end{itemize} 
+
+\subsection{Comparison with Related Work} 
+
+In terms of a comparison of the results of this work with those of similar works described in Chapter 2, it should be noted that there are not so many other works that directly contradict or question our results in one way or another. This is not so much because of their complete agreement with the conclusions we reached but rather because, as was already mentioned in the discussion of that literature in Section 2.6, in general, this research domain is relatively consistent and does not contain a lot of controversies. At the same time, as has also been noted earlier, most of the existing works on this topic used the XGBoost model either in some form of ensemble with other algorithms or, on the contrary, not at all.
+
+The most important difference from our results is, thus, from that work by Le et al. \cite{le2021ensemble}, which used an ensemble of XGBoost with CNN and LSTM models, while we focused on a more detailed end-to-end pipeline of developing a similar model, with special attention paid to such aspects of the task as class imbalance.
+
+However, at the same time, this dissertation has still managed to make a unique and non-trivial contribution to this field by bringing together a large number of already existing techniques into a single comprehensive pipeline that also paid special attention to the particular challenges of the multi-class CIC-IDS2017 dataset in particular and included a built-in and, as has been demonstrated in this work, extremely effective method for handling its class imbalance problem.
+
+\subsection{Limitations of the Study} 
+
+Despite the comprehensive and rigorous approach to this research, some limitations of this study must be acknowledged:
+
+\begin{itemize} 
+\item \textbf{Dataset Limitation: } The CIC-IDS2017 dataset was used as a proxy for real network traffic. However, the network patterns and attack vectors in the real world may evolve, and the model might not generalize to datasets from other sources or to future, unseen types of attacks not present in the dataset.
+\item \textbf{Feature Set: } This work has used the 78 pre-defined features from CICFlowMeter. Future work might explore more features or raw packet data to potentially improve performance.
+\item \textbf{Computational Resources: } Hyperparameter tuning of XGBoost on a large dataset like CIC-IDS2017 is computationally intensive. The scope of hyperparameter tuning was limited by available computational resources.
+\item \textbf{Real-time Deployment: } The research is focused on offline training and evaluation. The practical considerations of deploying such a model in a real-time NIDS environment, including data ingestion and processing latency, were not explored.
+\item \textbf{Explainability: } The study does not extensively address the explainability of the XGBoost model's decisions. While some feature importance was shown, a deeper analysis using techniques like SHAP for individual predictions could be explored.
+\end{itemize} 
+
+\subsection{Implications and Contributions} 
+
+In terms of the implications of the research for the broader field of network security and possible contributions to it, it can be said that this research has managed to demonstrate the potential of using an ensemble-based machine learning algorithm like XGBoost in a wide range of scenarios related to network security, especially the problem of detecting different network attacks in a timely and accurate manner.
+
+In particular, the combination of the comprehensive data pre-processing pipeline and especially the handling of the significant class imbalance in the data with the use of a sufficiently powerful and tunable machine learning algorithm has been shown to be effective in terms of getting this algorithm to a level of performance on this task that is at least as good as that of the best state-of-the-art models. This finding, in turn, can be directly and easily applied to future NIDS that will use this algorithm or a similar one as their main building block, and it is, in this way, what is supposed to be the main contribution of this work.
+
+The comparative analysis, which shows that XGBoost outperforms other algorithms, is also important in this regard as it can help other researchers and practitioners in the field to choose an appropriate algorithm for their needs and avoid wasting time and computational resources on trying to use less suitable ones.

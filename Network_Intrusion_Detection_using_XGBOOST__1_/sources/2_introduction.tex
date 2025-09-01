@@ -1,0 +1,41 @@
+\subsection{Background}
+The pervasive nature of the internet and interconnected systems has revolutionised modern society, from communication, commerce, entertainment to the most critical systems. However, the other side of the coin is that this increased connectivity has exposed systems to ever-increasing cyber threats \parencite{googlecloud2025threat, govuk2025cyber}. Network security has thus become crucial, with threat actors constantly attempting to compromise confidentiality, integrity, and availability (CIA) of digital assets \parencite{itgovernance2025cia, securityscorecard2025cia}. In this regard, Network Intrusion Detection Systems (NIDS) serve as an important line of defence \parencite{sharma2024advancements}. NIDS are designed to monitor networks for suspicious activities and alert network administrators to potential security breaches. Traditional NIDS often rely heavily on signature-based detections. This has proven to be effective against known threats but struggles to detect novel or zero-day attacks \parencite{kaur2024challenges, ali2024challenges}. This limitation has driven the cybersecurity community to explore an alternative, more effective option, often leveraging advancements in AI and Machine Learning (ML) \parencite{singh2025comparative, akoto2024machine}.
+
+\subsection{Problem Statement}
+Immense advancements have been made in NIDS and despite the advancements, several challenges still exist that hinder the effectiveness of NIDS in real-world environments \parencite{sharma2024advancements, bistech2025networking}. The sheer volume and the speed of modern network traffic make manual inspection an impossible task. This forces an automated solution to monitor high volume, high-speed modern network traffic \parencite{bistech2025networking, researchgate2024challenges}. Furthermore, cyberattacks continue to evolve, with threat actors employing sophisticated techniques to compromise the CIA of networks. These techniques can easily bypass signature-based traditional NIDS \parencite{prophaze2025ids, researchgate2025comparative}. ML is coming as a promising solution to address these shortcomings by enabling NIDS to learn complex patterns from data and detect network anomalies \parencite{brilliance2025ml, irjmets2025nids}. However, developing robust and accurate ML-based NIDS requires careful consideration of data quality, feature engineering, model selection, and the inherent class imbalance prevalent in network intrusion datasets \parencite{semanticscholar2025imbalanced, arxiv2025defensive}. Specifically, the CIC-IDS2017 dataset, while highly realistic, presents significant challenges due to its large size, diverse attack types, and severe class imbalance, which can bias traditional ML models towards the majority class \parencite{unb2017cicids, rdiscovery2025cicids, pubmedcentral2025ids}.
+
+\subsection{Research Questions}
+This dissertation aims to address the above-mentioned challenges by the application of the XGBoost algorithm for network intrusion detection on the CIC-IDS2017 dataset. This dissertation seeks to answer the following questions:  
+\begin{enumerate}
+    \item How effectively can an optimized XGBoost model classify different types of network intrusions present in the CIC-IDS2017 dataset?
+    \item  What is the impact of various data pre-processing techniques, particularly concerning class imbalance, on the performance of the XGBoost-based NIDS on CIC-IDS2017?
+    \item How does the performance of the optimized XGBoost model compare to other state-of-the-art machine learning algorithms for multi-class network intrusion detection on the CIC-IDS2017 dataset?
+\end{enumerate}
+       
+\subsection{Research Objectives}
+To answer the research questions, the following objectives have been established:
+\begin{enumerate}
+    \item To acquire and comprehensively pre-process the CIC-IDS2017 dataset, addressing issues such as missing values, categorical features, and significant class imbalance.
+    \item To develop and optimize an XGBoost-based network intrusion detection model through systematic hyper-parameter tuning.
+    \item To rigorously evaluate the performance of the optimized XGBoost model using a comprehensive set of metrics relevant to NIDS, including precision, recall, F1-score, and false positive rates for each attack class.
+    \item To conduct a comparative analysis of the optimized XGBoost model against other prominent machine learning algorithms (e.g., Random Forest, SVM) on the same dataset to benchmark its effectiveness.
+\end{enumerate}
+      
+
+\subsection{Scope of the Dissertation}
+This dissertation solely focuses on the application of the XGBoost algorithm for network intrusion detection using the CIC-IDS2017 dataset. The scope is limited to flow-based feature analysis due to its efficiency, privacy, scalability, and moreover its effectiveness in ML as compared to packet-based analysis. The analysis will be carried out as provided by CICFlowMeter. This dissertation aims to achieve a high detection rate and low false positive rates. However, it does not focus on real-time deployment of NIDS, nor does it explore  novel feature extraction methods beyond those inherent in the dataset. The primary goal is to demonstrate the efficiency of XGBoost and robust pre-processing on a challenging, realistic dataset for multi-class classification of network intrusions.
+
+\subsection{Significance of the Research}
+The findings of this dissertation can contribute to the field of cybersecurity by providing a detailed methodology and evidence for building ML-based NIDS. By utilizing  the CIC-IDS2017 dataset, which closely resembles the real-world network traffic, this dissertation offers insights into the applicability of XGBoost for detecting diverse intrusion types. The systematic approach to the data pre-processing, particularly addressing class imbalance, provides valuable reference for future studies. Moreover, the performance analysis of XGBoost from the dissertation can be used as benchmark performance to compare against other models for NIDS development. Ultimately, this dissertation aims to enhance the capabilities of automated IDS which can strengthen network defences against evolving cyber threats. 
+
+\subsection{Dissertation Outline}
+The remainder of this dissertation is organised as follows:
+\begin{itemize}
+    \item Chapter 2 provides a comprehensive review of existing literature on Network Intrusion Detection Systems (NIDS), machine learning in NIDS, ensemble learning, XGBoost, and the CIC-IDS2017 dataset. 
+    \item Chapter 3 details the methodology employed, including data pre-processing, model selection, experimental setup, and hyperparameter tuning. 
+    \item Chapter 4 presents the results and analysis of the experiment. 
+    \item Chapter 5 discusses the findings, answers the research questions, and compares the results with related work. 
+    \item Finally, Chapter 6 concludes the dissertation and outlines directions for future research.
+\end{itemize}
+    
+
