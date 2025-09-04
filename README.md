@@ -1,6 +1,6 @@
-# Anomaly Detection in Network Intrusion with XGBoost on CIC-IDS 2017 Dataset
+# Network Intrusion Detection on CIC-IDS2017 dataset using XGBOOST algorithm
 
-This repository contains Python scripts and a LaTeX report for a project on network intrusion detection. The core of the project involves training an XGBoost model on the CIC-IDS 2017 dataset to identify network anomalies and classify different types of attacks.
+This repository contains Python scripts and a LaTeX write-up for MSc in Cybersecurity Dissertation on NIDS on CIC-IDS2017 using XGBoost Algoriitm. The core of the project involves training an XGBoost model on the CIC-IDS 2017 dataset to identify network anomalies and classify different types of attacks.
 
 ## Project Structure
 
