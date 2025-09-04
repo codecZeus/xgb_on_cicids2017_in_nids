@@ -1,7 +1,7 @@
 \subsection{Introduction to Network Intrusion Detection System}
 Network intrusion detection systems (NIDS) are the digital security guards of a network. NIDS observe the network communications (packets or flows) to detect and flag malicious activity or network policy violations in real time. In modern networks this role is complicated due to several factors such as (i) high data transfer rate of network connections of 100 Gbps and beyond; (ii) all data transferred over the network is encrypted with the latest encryption protocols such as TLS 1.3 (Transport Layer Security) and QUIC (Quick UDP Internet Connections); (iii) the rise of cloud-native, containerized workloads and elastic east-west traffic; and (iv) the increasingly data-driven decisions to be made by Security Operations Centres (SOCs) that require actionable and explainable alerts with low false positive rates \parencite{Zhou2024TLS13Survey,Cerasuolo2025Adaptable,KBS2025Datasets}.
  Meanwhile, open-source engines such as Suricata and Snort continue to dominate operational deployments, with commercial engines often embedding or extending these cores \parencite{SuricataDocs2025,SnortManual2024,CiscoSnort3Guide2024}.\\
- 
+
 \noindent NIDS can be categorized into two depending on how they monitor networks. There is signature-based detection which is a very rigid system and looks for specific, known malicious activities (like a security guard with a "most wanted" list). The anomaly-based detection are more flexible systems and look for anything that just seems "off". The smartest system today is hybrid approaches which combine both methods. Hybrid systems often use simple fast check to filter out the obvious threats and then pass the tricky stuff to more sophisticated, learning-based system for deeper analysis \parencite{Maseno2022HybridReview,Han2023HPNIDS,Naghib2025HybridReview}. These different approaches and their application in the real world are discussed in the following sections.
 
 \subsection{How NIDS detect threats}
@@ -219,9 +219,9 @@ Each row of the CSV files, therefore, contains a single, unique network flow. Th
 \item Flow Features: These features describe the overall behaviour and rates of the flow. The most commonly used ones are Flow Bytes/s , Flow Packets/s , Flow Inter-Arrival Time (IAT) Mean , and Flow IAT Standard .
 \item Statistical Features of Packet Lengths: These features describe the distribution of packet sizes in the flow and include Min Packet Length , Max Packet Length , Packet Length Mean , and Packet Length Std . These features are useful for identifying fragmented or unusually large/small payloads.
 \item Time-Based Features (IAT): These capture the time intervals between packets and include features such as Fwd IAT Mean and Bwd IAT Std , which can be used to detect regular or periodic packet transmission.
-\item Flag Counts: These represent the count of specific TCP flags within a flow, such as Fwd PSH Flags , Bwd PSH Flags , Fwd URG Flags , and Bwd URG Flags . These flags often indicate control operations like connection establishment, termination, or the transmission of urgent data.
+\item Flag Counts: These represent the count of specific TCP flags within a flow, such as Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags , and Bwd URG Flags . These flags often indicate control operations like connection establishment, termination, or the transmission of urgent data.
 \item Header Lengths: These include features such as Fwd Header Length and Bwd Header Length which record the sum of lengths of headers for the forward and backward packets, respectively.
-\item Target Label: This is the final, non-feature column, called Label , that records the ground truth. It contains either the label 'BENIGN' if a particular row of the dataset represents normal network activity or a particular attack type (e.g. 'DoS Hulk', 'PortScan', 'DDoS', 'Web Attack-XSS', etc.) if not. 
+\item Target Label: This is the final, non-feature column, called Label, that records the ground truth. It contains either the label 'BENIGN' if a particular row of the dataset represents normal network activity or a particular attack type (e.g. 'DoS Hulk', 'PortScan', 'DDoS', 'Web Attack-XSS', etc.) if not. 
 \end{itemize} 
 The pre-extracted, rich set of flow-based features, thus, allows the researcher to significantly speed up the first, preliminary stages of model development. It, instead, frees up some time and resources for more focused work on more advanced ML-related and, often more pressing, problems, such as the choice of the right algorithm and its further, more in-depth, hyperparameter optimisation, as well as for a more careful evaluation of the results \parencite {shafi2022comprehensive}. However, the actual quality, relevance, and possible interdependencies of the features and their impact on a chosen ML model can and should still be carefully investigated in a more thorough exploratory data analysis.
 
@@ -317,8 +317,7 @@ As already discussed, the total number of CIC-IDS2017 samples is close to $1.25\
 
 \begin{table}[H] 
 \centering 
-\caption{Dimensions of the CIC-IDS2017 Dataset} 
-\label{tab:dataset_shape} 
+\caption{Dimensions of the CIC-IDS2017 Dataset}\label{tab:dataset_shape}
 \begin{tabular}{lrrr} 
 \toprule 
 {} & Samples & Features & Missing Values \\ 
@@ -327,7 +326,7 @@ CIC-IDS2017 Dataset & $1.25\times10^7$ & 79 & 0 \\
 \end{tabular} 
 \end{table} 
 
-Table \ref{tab:dataset_classes} and Figure \ref{fig:dataset_distr} below summarise the categorical nature of the CIC-IDS2017 target label in more detail. It is, once again, confirmed that the available labels in CIC-IDS2017 include benign traffic as well as 11 unique anomalies or attack types.
+Table\ref{tab:dataset_classes} and Figure\ref{fig:dataset_distr} below summarise the categorical nature of the CIC-IDS2017 target label in more detail. It is, once again, confirmed that the available labels in CIC-IDS2017 include benign traffic as well as 11 unique anomalies or attack types.
 
 \begin{table}[h] 
 \centering 
