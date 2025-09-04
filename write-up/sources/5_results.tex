@@ -1,8 +1,8 @@
-\subsection{Introduction} 
+\subsection{Introduction}
 
 The purpose of this chapter is to present the main results of the experimental work. It shows the results of applying the pre-processing techniques to the CIC-IDS2017 dataset and creating the clean, numerical training dataset, as well as training the XGBoost model on that data and tuning its hyperparameters. In addition, this chapter presents a detailed analysis of the XGBoost algorithm’s performance on the separate test set. The results of that analysis, in addition to the feature importance values extracted from the trained model, will be used to answer the research questions posed earlier in the dissertation.
 
-\subsection{Dataset Characteristics after Pre-processing} 
+\subsection{Dataset Characteristics after Pre-processing}
 
 This section of the chapter begins by describing the dataset used for the experiment. To recall, it is the CIC-IDS2017 dataset. The main characteristics of that dataset before pre-processing are given in Chapter 3, and Table \ref{tab:cic_ids2017_dataset_initial_characteristics}. After all the pre-processing steps described in Chapter 3, the dataset now has the following characteristics:
 
@@ -12,13 +12,13 @@ As can be seen from Figure \ref{fig: number_of_samples_per_category_initial_data
 
 As we can see from Figure \ref{fig: number_of_samples_per_category_post_smotetomek}, this issue has been successfully resolved by applying the SMOTETomek re-sampling technique described in Chapter 3, Section 3.4. Now the “Benign” category still contains the largest number of samples, but it is significantly smaller, and in total there are about the same number of samples in each class as before.
 
-\subsection{Baseline Model Performance} 
+\subsection{Baseline Model Performance}
 
 As the first step in the training process, we train an initial XGBoost model with the default hyperparameters to establish a baseline performance level. The configuration of that baseline model is specified in Section 5.1 and includes the default hyperparameters used in the XGBoost library, without any hyperparameter tuning or optimization, and with the exception of class balancing with SMOTETomek, which is a necessary step for working with this dataset.
 
 In terms of its final performance, as expected, the baseline model achieves only a mediocre overall accuracy and an extremely low F1-Macro score, especially for the most under-represented in the data (prior to re-sampling) attack classes (DDoS, Bot, and Infiltration), which indicates that this model is incapable of learning to distinguish between those attack classes and the benign “normal” traffic. On the other hand, this baseline performance level will serve as a useful point of reference for later, after the hyperparameter tuning is complete and will help to demonstrate the benefits of that tuning process.
 
-\subsection{Hyperparameter Tuning Results} 
+\subsection{Hyperparameter Tuning Results}
 
 To determine the optimal set of hyperparameters for the XGBoost model to be used in this work, a combined randomized/grid search hyperparameter tuning approach with a 5-fold cross-validation was performed, the results of which are presented in this section.
 
@@ -28,17 +28,17 @@ The outcome of the hyperparameter tuning process was that the best set of hyperp
 
 In summary, the optimal hyperparameters for the XGBoost model for this work were found through the randomized/grid search hyperparameter tuning approach to be those presented in Table \ref{tab:xgboost_best_hp_search}.
 
-\subsection{Optimized XGBoost Model Performance} 
+\subsection{Optimized XGBoost Model Performance}
 
 The main focus of this section of the chapter and, essentially, of this chapter in general is on the detailed presentation and analysis of the performance of the final, fully optimized XGBoost model on the separate test dataset.
 
 The very first thing we want to present is the confusion matrix for the optimized XGBoost model predictions on the test dataset in \textbf{Figure \ref{fig:confusion_matrix_xgboost}}.
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.8\textwidth]{assets/figures/results/confusion_matrix_xgboost.png}
-\caption{Confusion Matrix of the Optimized XGBoost Model}
-\label{fig:confusion_matrix_xgboost}
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/figures/results/confusion_matrix_xgboost.png}
+	\caption{Confusion Matrix of the Optimized XGBoost Model}
+	\label{fig:confusion_matrix_xgboost}
 \end{figure}
 
 
@@ -54,28 +54,28 @@ The features found to be most important are directly related to the packet count
 
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.8\textwidth]{assets/figures/results/xgboost_feature_importance.png}
-\caption{Top 20 Features by XGBoost Importance}
-\label{fig:xgboost_feature_importance}
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/figures/results/xgboost_feature_importance.png}
+	\caption{Top 20 Features by XGBoost Importance}
+	\label{fig:xgboost_feature_importance}
 \end{figure}
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=1\textwidth]{assets/figures/results/shap_summary_plot_overall.png}
-\caption{SHAP Summary Plot for Overall Feature Impact}
-\label{fig:shap_summary_plot}
+	\centering
+	\includegraphics[width=1\textwidth]{assets/figures/results/shap_summary_plot_overall.png}
+	\caption{SHAP Summary Plot for Overall Feature Impact}
+	\label{fig:shap_summary_plot}
 \end{figure}
 
-\subsection{Comparative Analysis Results} 
+\subsection{Comparative Analysis Results}
 
 As a part of the validation process for the main results of the work and as a way of further strengthening the conclusion that this XGBoost algorithm is one of the best-suited algorithms for this task and should be the basis of the proposed solution, the XGBoost model and its performance are compared against a number of other well-known machine learning algorithms from the same domain.
 
 In particular, the results of the performance comparison of the XGBoost model with other state-of-the-art machine learning algorithms for this task are presented in \textbf{Figure \ref{fig:comparative_performance_summary}}. As one can clearly see from that figure, the XGBoost model, especially with the optimization and tuning described in Sections 5 and 6, outperforms all the other algorithms from this domain in all the relevant metrics and, in particular, the F1-Macro score and Accuracy, which are, in this case, by far the most important.
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.8\textwidth]{assets/figures/results/comparative_performance_summary.png}
-\caption{Comparative Performance Summary of Models}
-\label{fig:comparative_performance_summary}
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/figures/results/comparative_performance_summary.png}
+	\caption{Comparative Performance Summary of Models}
+	\label{fig:comparative_performance_summary}
 \end{figure}

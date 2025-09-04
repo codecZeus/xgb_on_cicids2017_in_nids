@@ -1,7 +1,7 @@
 \subsection{Introduction}
 This chapter outlines the comprehensive methodology employed to achieve the research objectives, focusing on the systematic approach to data preparation, model development, and evaluation. It details the steps taken to process the raw CIC-IDS2017 dataset, configure the XGBoost model, and establish a robust experimental setup for performance assessment. The aim is to ensure reproducibility and provide a clear understanding of the research design.
 
-\subsection{Dataset Description: CIC-IDS2017} 
+\subsection{Dataset Description: CIC-IDS2017}
 The Canadian Institute for Cybersecurity (CIC) CIC-IDS2017 dataset was chosen for this study due to its realistic representation of modern network traffic, including both benign and various common attack scenarios. The dataset comprises network flow data captured over five days (Monday to Friday), with Monday representing normal activity and the subsequent days incorporating different types of attacks. It consists of over 2.8 million network flows, each characterized by 78 features extracted using CICFlowMeter, along with a 'Label' column indicating whether the flow is benign or malicious (and the specific attack type if malicious). The attacks covered include Brute Force FTP, Brute Force SSH, DoS (GoldenEye, Hulk, Slowhttptest, Slowloris), Heartbleed, Web Attack (Brute Force, XSS, Sql Injection), Infiltration, Botnet, and DDoS. The dataset is publicly available in CSV format, making it suitable for machine learning research.
 
 \subsection{Data Pre-processing}
@@ -15,7 +15,7 @@ The dataset, distributed across multiple CSV files (one for each day), was loade
 \subsection{Handling Categorical Features}
 The 'Protocol' feature, being categorical, was converted into numerical format. One-Hot Encoding was applied to this feature to avoid imposing an artificial ordinal relationship, creating new binary columns for each protocol type (e.g., TCP, UDP, ICMP). The 'Label' column, representing the target variable (attack type or benign), was Label Encoded to convert string labels into numerical integers for multi-class classification.
 
-\subsection{Feature Scaling/Normalization} 
+\subsection{Feature Scaling/Normalization}
 While tree-based models like XGBoost are less sensitive to feature scaling than distance-based algorithms, scaling can sometimes aid in regularization and convergence. Therefore, numerical features were scaled using StandardScaler from scikit-learn. This transforms the data to have a mean of 0 and a standard deviation of 1, which can prevent features with larger numerical ranges from dominating the learning process.
 
 \subsection{Feature Engineering (if applicable)}
@@ -36,61 +36,61 @@ The pre-processed dataset was randomly split into training and testing sets with
 \subsubsection{Evaluation Metrics}
 Given the highly imbalanced nature of the CIC-IDS2017 dataset, a comprehensive set of evaluation metrics was employed beyond simple accuracy:
 \begin{itemize}
-    \item Accuracy: Overall correctness of predictions.
-    \item Precision: The proportion of true positive predictions among all positive predictions.
-    \item  Recall (Sensitivity/Detection Rate): The proportion of true positive predictions among all actual positive instances. Crucial for NIDS to minimize false negatives (missed attacks).
-    \item F1-Score: The harmonic mean of precision and recall, providing a balanced measure. Both macro-averaged (average F1-score per class) and weighted-averaged (F1-score weighted by the number of true instances for each label) F1-scores were reported to account for class imbalance.
-    \item Confusion Matrix: A table visualizing the performance of the classification model, showing true positives, true negatives, false positives, and false negatives for each class.
-    \item False Positive Rate (FPR) / False Alarm Rate (FAR): The proportion of benign instances incorrectly classified as malicious. Minimizing FPR is critical for practical NIDS deployment.
-    \item True Positive Rate (TPR): Identical to Recall.
-     \item ROC AUC Score and Precision-Recall Curves: Used to evaluate the model's ability to distinguish between classes across various thresholds, especially informative for imbalanced datasets.
+	\item Accuracy: Overall correctness of predictions.
+	\item Precision: The proportion of true positive predictions among all positive predictions.
+	\item  Recall (Sensitivity/Detection Rate): The proportion of true positive predictions among all actual positive instances. Crucial for NIDS to minimize false negatives (missed attacks).
+	\item F1-Score: The harmonic mean of precision and recall, providing a balanced measure. Both macro-averaged (average F1-score per class) and weighted-averaged (F1-score weighted by the number of true instances for each label) F1-scores were reported to account for class imbalance.
+	\item Confusion Matrix: A table visualizing the performance of the classification model, showing true positives, true negatives, false positives, and false negatives for each class.
+	\item False Positive Rate (FPR) / False Alarm Rate (FAR): The proportion of benign instances incorrectly classified as malicious. Minimizing FPR is critical for practical NIDS deployment.
+	\item True Positive Rate (TPR): Identical to Recall.
+	\item ROC AUC Score and Precision-Recall Curves: Used to evaluate the model's ability to distinguish between classes across various thresholds, especially informative for imbalanced datasets.
 \end{itemize}
-          
+
 \subsection{Tools and Environment}
 All experiments were conducted using Python (version X.X) as the programming language. Key libraries included pandas for data manipulation, numpy for numerical operations, scikit-learn for pre-processing and evaluation tools, xgboost for the model implementation, and matplotlib and seaborn for data visualization. The experiments were performed on a machine with [mention CPU/GPU, RAM, e.g., Intel Core i7 processor, 16GB RAM, and NVIDIA GeForce RTX 3060 GPU].
 
 \subsection{Hyperparameter Tuning}
 To optimize the performance of the XGBoost model, a systematic hyperparameter tuning process was undertaken. Initially, a broad Randomized Search Cross-Validation (RandomizedSearchCV from scikit-learn) was performed to explore a wide range of parameter combinations efficiently. This was followed by a more focused Grid Search Cross-Validation (GridSearchCV) around the promising regions identified by the randomized search. The key hyperparameters tuned included:
 \begin{itemize}
-    \item n\textunderscore estimators: [e.g., 100, 200, 300, 500]
-    \item learning\textunderscore rate: [e.g., 0.01, 0.05, 0.1, 0.2]
-    \item max\textunderscore depth: [e.g., 3, 5, 7, 9]
-    \item subsample: [e.g., 0.6, 0.8, 1.0]
-    \item colsample\textunderscore bytree: [e.g., 0.6, 0.8, 1.0]
-    \item gamma: [e.g., 0, 0.1, 0.2]
-    \item reg\textunderscore alpha (L1 regularization): [e.g., 0, 0.001, 0.01]
-    \item  reg\textunderscore lambda (L2 regularization): [e.g., 1, 10, 100]
-    \item scale\textunderscore pos\textunderscore weight: Dynamically calculated based on class imbalance, or tuned for specific minority classes. The tuning process utilized 5-fold cross-validation on the training set, with the F1-score (macro-averaged) as the primary metric for selecting the best model, given its robustness to class imbalance.
+	\item n\textunderscore estimators: [e.g., 100, 200, 300, 500]
+	\item learning\textunderscore rate: [e.g., 0.01, 0.05, 0.1, 0.2]
+	\item max\textunderscore depth: [e.g., 3, 5, 7, 9]
+	\item subsample: [e.g., 0.6, 0.8, 1.0]
+	\item colsample\textunderscore bytree: [e.g., 0.6, 0.8, 1.0]
+	\item gamma: [e.g., 0, 0.1, 0.2]
+	\item reg\textunderscore alpha (L1 regularization): [e.g., 0, 0.001, 0.01]
+	\item  reg\textunderscore lambda (L2 regularization): [e.g., 1, 10, 100]
+	\item scale\textunderscore pos\textunderscore weight: Dynamically calculated based on class imbalance, or tuned for specific minority classes. The tuning process utilized 5-fold cross-validation on the training set, with the F1-score (macro-averaged) as the primary metric for selecting the best model, given its robustness to class imbalance.
 \end{itemize}
 
 \subsection{Comparative Analysis (if applicable)}
 To contextualize the performance of the optimized XGBoost model, its results were compared against several other commonly used machine learning algorithms for NIDS. These algorithms included:
 \begin{itemize}
-    \item Random Forest (RF): Another ensemble tree-based method, known for its robustness and good performance.
-    \item Support Vector Machine (SVM): A powerful discriminative classifier, often used as a benchmark.
-    \item Decision Tree (DT): A foundational algorithm, providing a simpler comparison point.
-    \item K-Nearest Neighbors (KNN): A non-parametric, instance-based learning algorithm. Each comparative model was trained and evaluated on the exact same pre-processed CIC-IDS2017 dataset splits and using the identical set of evaluation metrics to ensure a fair and direct comparison. Basic hyperparameter tuning was performed for these comparative models to ensure reasonable performance.
+	\item Random Forest (RF): Another ensemble tree-based method, known for its robustness and good performance.
+	\item Support Vector Machine (SVM): A powerful discriminative classifier, often used as a benchmark.
+	\item Decision Tree (DT): A foundational algorithm, providing a simpler comparison point.
+	\item K-Nearest Neighbors (KNN): A non-parametric, instance-based learning algorithm. Each comparative model was trained and evaluated on the exact same pre-processed CIC-IDS2017 dataset splits and using the identical set of evaluation metrics to ensure a fair and direct comparison. Basic hyperparameter tuning was performed for these comparative models to ensure reasonable performance.
 \end{itemize}
 
-\subsection{layout}        
+\subsection{layout}
 Research Methods
 Chapters 2, 3, 20 \& 22
 Page 492
 
 'Research methods' is used here as a catch-all for issues you need to outline, such as:
 
-    your research design and sampling approach
-    how access was achieved (if relevant)
-    the procedures you used (e.g., following up non-respondents with a postal questionnaire)
-    the nature of your questionnaire, interview or observation schedule, participant observation role, coding frame, etc. (these may appear in an appendix, but you should comment on why you did what you did)
-    problems of non-response
-    note taking
-    issues of ongoing access and cooperation
-    coding matters and how you proceeded with your analysis
+your research design and sampling approach
+how access was achieved (if relevant)
+the procedures you used (e.g., following up non-respondents with a postal questionnaire)
+the nature of your questionnaire, interview or observation schedule, participant observation role, coding frame, etc. (these may appear in an appendix, but you should comment on why you did what you did)
+problems of non-response
+note taking
+issues of ongoing access and cooperation
+coding matters and how you proceeded with your analysis
 
 When discussing each of these issues, you should describe and defend the choices that you made, e.g.:
 
-    why you used a postal questionnaire rather than a structured interview
-    why you focused upon that particular population for sampling purposes
+why you used a postal questionnaire rather than a structured interview
+why you focused upon that particular population for sampling purposes
 
 \subsection{Ethical Considerations}
