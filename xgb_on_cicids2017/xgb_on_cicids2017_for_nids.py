@@ -322,7 +322,6 @@ def split_and_handle_imbalance(X, y_encoded, test_size=0.2, random_state=42):
     print("\n--- STEP 4: Data Split & Multi-Class Imbalance Handling (Phase 2, RQ1) ---")
     print("Splitting data into training and testing sets...")
 
-    
     class_counts = pd.Series(y_encoded).value_counts()
     single_member_classes = class_counts[class_counts == 1].index.tolist()
 
@@ -349,7 +348,6 @@ def split_and_handle_imbalance(X, y_encoded, test_size=0.2, random_state=42):
         X_to_split = X
         y_to_split = y_encoded
         print("No single-member classes found. Proceeding with full data for split.")
-  
 
     X_train, X_test, y_train, y_test = train_test_split(
         X_to_split, y_to_split, test_size=test_size, random_state=random_state, stratify=y_to_split
