@@ -29,6 +29,7 @@ To run the anomaly detection script, you must first download the CIC-IDS 2017 da
 
 1. **Download the dataset:**  
    The dataset consists of multiple CSV files. You can download the full dataset from the official CIC-IDS 2017 website or a mirrored source.
+   There should be CSV files as shown in ![CSV files](script/csv_files.png)
 
 2. **Place the dataset in the correct directory:**  
    Extract the downloaded CSV files into a folder. By default, the `xgb_on_cicids2017_for_nids.py` script expects the CSV files to be in a directory named `MachineLearningCVE`.
