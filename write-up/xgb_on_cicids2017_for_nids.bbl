@@ -19,80 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{researchgate2024challenges}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=367dff781e5145b1e39b1ba610c08bbd}{%
-           family={A.},
-           familyi={A\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f981b41c5ee5db192c4882e259cc09a2}{%
-           family={B.},
-           familyi={B\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4666fe37576237ff67f0af71b6361e10}{%
-           family={C.},
-           familyi={C\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \strng{fullhash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \strng{bibnamehash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \strng{authorbibnamehash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \strng{authornamehash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \strng{authorfullhash}{5c96fdf7abb6f7f989259a7d99c9b9ab}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ResearchGate}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{title}{Challenges and Limitations of IDS: A Comprehensive Assessment and Future Perspectives}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/385000418_Challenges_and_Limitations_of_IDS_A_Comprehensive_Assessment_and_Future_Perspectives
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/385000418_Challenges_and_Limitations_of_IDS_A_Comprehensive_Assessment_and_Future_Perspectives
-      \endverb
-    \endentry
     \entry{agrawal2021survey}{article}{}
-      \name{author}{3}{}{%
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e398f15c401932e4c66b4efc92c7a70}{%
            family={Agrawal},
            familyi={A\bibinitperiod},
            given={Rahul},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ec3d46b3cbcfee9fe7b2b4f2736cd78a}{%
-           family={Jain},
-           familyi={J\bibinitperiod},
-           given={Aakriti},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=d2d7c0d70020790864d2b9eaad289f51}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={Rakesh},
-           giveni={R\bibinitperiod},
-           givenun=2}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{e429a6c8607c38f4452ae54ca3033a71}
-      \strng{fullhash}{e429a6c8607c38f4452ae54ca3033a71}
-      \strng{bibnamehash}{e429a6c8607c38f4452ae54ca3033a71}
-      \strng{authorbibnamehash}{e429a6c8607c38f4452ae54ca3033a71}
-      \strng{authornamehash}{e429a6c8607c38f4452ae54ca3033a71}
-      \strng{authorfullhash}{e429a6c8607c38f4452ae54ca3033a71}
+      \strng{namehash}{a0513b64e6959dcdc4792cbba3256bdd}
+      \strng{fullhash}{a0513b64e6959dcdc4792cbba3256bdd}
+      \strng{bibnamehash}{a0513b64e6959dcdc4792cbba3256bdd}
+      \strng{authorbibnamehash}{a0513b64e6959dcdc4792cbba3256bdd}
+      \strng{authornamehash}{a0513b64e6959dcdc4792cbba3256bdd}
+      \strng{authorfullhash}{a0513b64e6959dcdc4792cbba3256bdd}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -143,44 +89,6 @@
       \verb https://www.nature.com/articles/s41598-025-85866-7
       \endverb
     \endentry
-    \entry{akoto2024machine}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5b74921dbc2428a92b930ef60d25e5ee}{%
-           family={Akoto},
-           familyi={A\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4a91e6dbb5425dd8e2a97c476897d385}{%
-           family={Salman},
-           familyi={S\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \strng{fullhash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \strng{bibnamehash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \strng{authorbibnamehash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \strng{authornamehash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \strng{authorfullhash}{f2dc7afb883752b89b4eccbf43e2d130}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2409.18736}
-      \field{note}{This is an illustrative entry focusing on ML/DL in NIDS, citing concepts from the search result.}
-      \field{title}{Machine Learning-Based Intrusion Detection Systems: A Comprehensive Review and Future Directions}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://arxiv.org/html/2409.18736v3
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/html/2409.18736v3
-      \endverb
-    \endentry
     \entry{albanese2021integrating}{incollection}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=43edde5f03936ae33232c7015f7409d7}{%
@@ -223,14 +131,14 @@
       \field{pages}{155\bibrangedash 175}
       \range{pages}{21}
     \endentry
-    \entry{aldhubaib2024network}{article}{}
+    \entry{aldhubaib2024network1}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6dd9994b77e2831a8df2fd7b39527392}{%
+        {{un=1,uniquepart=given,hash=6dd9994b77e2831a8df2fd7b39527392}{%
            family={Aldhubaib},
            familyi={A\bibinitperiod},
            given={Bader},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=fbaf9b7721d84eb447408c29fa19f524}{%
            family={Ali},
            familyi={A\bibinitperiod},
@@ -256,6 +164,41 @@
       \field{journaltitle}{Journal of Network and Computer Applications}
       \field{title}{Network intrusion detection system: A systematic study of machine learning and deep learning approaches}
       \field{year}{2024}
+    \endentry
+    \entry{aldhubaib2024network}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=b64dcfb053c784b57d168da9036572dc}{%
+           family={Aldhubaib},
+           familyi={A\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=01b5b967614c42d674ed5af0f7ffacd7}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={A\bibnamedelima Q},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \strng{fullhash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \strng{bibnamehash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \strng{authorbibnamehash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \strng{authornamehash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \strng{authorfullhash}{afd670987a66b42c81e4e5a4e7cd4600}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cybersecurity and Privacy}
+      \field{number}{1}
+      \field{title}{Network Intrusion Detection using Ensemble Machine Learning}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{pages}{25\bibrangedash 40}
+      \range{pages}{16}
     \endentry
     \entry{ali2024challenges}{article}{}
       \name{author}{3}{}{%
@@ -301,86 +244,40 @@
       \verb https://fastercapital.com/topics/challenges-and-limitations-of-ids-in-zero-day-attack-detection.html
       \endverb
     \endentry
-    \entry{VisQUIC2024}{article}{}
+    \entry{sharma2024advancements}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7b056e532a53b3582b39e9c30305c49c}{%
-           family={arXiv},
-           familyi={a\bibinitperiod},
-           given={Authors},
-           giveni={A\bibinitperiod},
-           givenun=0,
-           prefix={omitted\bibnamedelima by},
-           prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod},
-           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=1970cfce8d0a94094d240624b8a45e52}{%
+           family={Ashish\bibnamedelimb Kumar\bibnamedelima Ranjan},
+           familyi={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Animesh\bibnamedelimb Kumar\bibnamedelima Dubey},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{fullhash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{bibnamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authorbibnamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authornamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authorfullhash}{7b056e532a53b3582b39e9c30305c49c}
-      \field{extraname}{1}
-      \field{sortinit}{a}
+      \strng{namehash}{1970cfce8d0a94094d240624b8a45e52}
+      \strng{fullhash}{1970cfce8d0a94094d240624b8a45e52}
+      \strng{bibnamehash}{1970cfce8d0a94094d240624b8a45e52}
+      \strng{authorbibnamehash}{1970cfce8d0a94094d240624b8a45e52}
+      \strng{authornamehash}{1970cfce8d0a94094d240624b8a45e52}
+      \strng{authorfullhash}{1970cfce8d0a94094d240624b8a45e52}
+      \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.CR}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{arXiv preprint}
-      \field{title}{A Large-Scale Dataset for Encrypted Traffic Analysis (VisQUIC)}
+      \field{journaltitle}{ACCENTS Journals}
+      \field{note}{This is an illustrative entry; specific volume, number, and pages would need to be confirmed.}
+      \field{number}{36}
+      \field{title}{Evolution and advancements in intrusion detection systems: from traditional methods to deep learning and federated learning approaches}
+      \field{volume}{9}
       \field{year}{2024}
-      \verb{eprint}
-      \verb 2410.03728
-      \endverb
+      \field{pages}{2455\bibrangedash 7196}
+      \range{pages}{4742}
       \verb{urlraw}
-      \verb https://arxiv.org/abs/2410.03728
+      \verb https://accentsjournals.org/PaperDirectory/Journal/TIS/2024/7/1.pdf
       \endverb
       \verb{url}
-      \verb https://arxiv.org/abs/2410.03728
-      \endverb
-    \endentry
-    \entry{P4NIDS2024}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7b056e532a53b3582b39e9c30305c49c}{%
-           family={arXiv},
-           familyi={a\bibinitperiod},
-           given={Authors},
-           giveni={A\bibinitperiod},
-           givenun=0,
-           prefix={omitted\bibnamedelima by},
-           prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod},
-           prefixun=0}}%
-      }
-      \strng{namehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{fullhash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{bibnamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authorbibnamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authornamehash}{7b056e532a53b3582b39e9c30305c49c}
-      \strng{authorfullhash}{7b056e532a53b3582b39e9c30305c49c}
-      \field{extraname}{2}
-      \field{sortinit}{a}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.NI}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{arXiv preprint}
-      \field{title}{P4-NIDS: High-Performance Network Monitoring and Intrusion Detection in P4}
-      \field{year}{2024}
-      \verb{eprint}
-      \verb 2411.17987
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2411.17987
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2411.17987
+      \verb https://accentsjournals.org/PaperDirectory/Journal/TIS/2024/7/1.pdf
       \endverb
     \endentry
     \entry{bendre2023comprehensive}{article}{}
@@ -421,55 +318,135 @@
       \field{pages}{7065\bibrangedash 7084}
       \range{pages}{20}
     \endentry
-    \entry{bistech2025networking}{article}{}
+    \entry{arxiv2025defensive}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0412f56301b899d3671a6c51b9b16390}{%
-           family={{Bistech}},
-           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=d3536a8c2528fb8b8459e8227413d7e4}{%
+           family={Benyamin\bibnamedelima Tafreshian},
+           familyi={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Shengzhi\bibnamedelima Zhang},
+           giveni={S\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{0412f56301b899d3671a6c51b9b16390}
-      \strng{fullhash}{0412f56301b899d3671a6c51b9b16390}
-      \strng{bibnamehash}{0412f56301b899d3671a6c51b9b16390}
-      \strng{authorbibnamehash}{0412f56301b899d3671a6c51b9b16390}
-      \strng{authornamehash}{0412f56301b899d3671a6c51b9b16390}
-      \strng{authorfullhash}{0412f56301b899d3671a6c51b9b16390}
+      \strng{namehash}{d3536a8c2528fb8b8459e8227413d7e4}
+      \strng{fullhash}{d3536a8c2528fb8b8459e8227413d7e4}
+      \strng{bibnamehash}{d3536a8c2528fb8b8459e8227413d7e4}
+      \strng{authorbibnamehash}{d3536a8c2528fb8b8459e8227413d7e4}
+      \strng{authornamehash}{d3536a8c2528fb8b8459e8227413d7e4}
+      \strng{authorfullhash}{d3536a8c2528fb8b8459e8227413d7e4}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{{Bistech Blog}}
-      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{Top 5 Networking Challenges Facing IT Managers in 2025}}
+      \field{journaltitle}{arXiv preprint arXiv:2502.15561}
+      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
+      \field{title}{A Defensive Framework Against Adversarial Attacks on Machine Learning-Based Network Intrusion Detection Systems}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://bistech.co.uk/blog-post/top-5-networking-challenges-facing-it-managers-in-2025-and-how-to-tackle-them/
+      \verb https://arxiv.org/html/2502.15561v1
       \endverb
       \verb{url}
-      \verb https://bistech.co.uk/blog-post/top-5-networking-challenges-facing-it-managers-in-2025-and-how-to-tackle-them/
+      \verb https://arxiv.org/html/2502.15561v1
+      \endverb
+    \endentry
+    \entry{irjmets2025nids}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ded97d1319c78d941ee085d6411a921c}{%
+           family={Bhandi},
+           familyi={B\bibinitperiod},
+           given={Sanjana},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1de9af092033a10bc26e61ad8a2e5974}
+      \strng{fullhash}{1de9af092033a10bc26e61ad8a2e5974}
+      \strng{bibnamehash}{1de9af092033a10bc26e61ad8a2e5974}
+      \strng{authorbibnamehash}{1de9af092033a10bc26e61ad8a2e5974}
+      \strng{authornamehash}{1de9af092033a10bc26e61ad8a2e5974}
+      \strng{authorfullhash}{1de9af092033a10bc26e61ad8a2e5974}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Research Journal of Modern Engineering and Technology Sciences (IRJMETS)}
+      \field{number}{4}
+      \field{title}{Network Intrusion Model Using Machine Learning}
+      \field{volume}{7}
+      \field{year}{2025}
+      \field{pages}{3665\bibrangedash 3674}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb https://www.irjmets.com/uploadedfiles/paper//issue_4_april_2025/72597/final/fin_irjmets1744641819.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irjmets.com/uploadedfiles/paper//issue_4_april_2025/72597/final/fin_irjmets1744641819.pdf
+      \endverb
+    \endentry
+    \entry{brilliance2025ml}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f0355b27832c98f54d30c0517e845026}{%
+           family={Budiansyah},
+           familyi={B\bibinitperiod},
+           given={Arie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \strng{fullhash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \strng{bibnamehash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \strng{authorbibnamehash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \strng{authornamehash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \strng{authorfullhash}{2ade1a66086b31c0a96dcb85861f50f0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brilliance: Research of Artificial Intelligence}
+      \field{number}{1}
+      \field{title}{The Effectiveness of Machine Learning Techniques in Anomaly Detection for Cyberattack Prevention: Systematic Literature Review 2020-2025}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{to appear}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://jurnal.itscience.org/index.php/brilliance/article/view/6124
+      \endverb
+      \verb{url}
+      \verb https://jurnal.itscience.org/index.php/brilliance/article/view/6124
       \endverb
     \endentry
     \entry{unb2017cicids}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4d6439d0f280d35c4ecd3c5add9a7155}{%
-           family={{Canadian Institute for Cybersecurity (CIC), University of New Brunswick (UNB)}},
-           familyi={C\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=ea03de079c5df341d52913a239e62be4}{%
+           family={Canadian\bibnamedelimb Institute\bibnamedelimb for\bibnamedelimb Cybersecurity\bibnamedelima (CIC)},
+           familyi={C\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={University\bibnamedelimb of\bibnamedelimb New\bibnamedelimb Brunswick\bibnamedelima (UNB)},
+           giveni={U\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim (\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{4d6439d0f280d35c4ecd3c5add9a7155}
-      \strng{fullhash}{4d6439d0f280d35c4ecd3c5add9a7155}
-      \strng{bibnamehash}{4d6439d0f280d35c4ecd3c5add9a7155}
-      \strng{authorbibnamehash}{4d6439d0f280d35c4ecd3c5add9a7155}
-      \strng{authornamehash}{4d6439d0f280d35c4ecd3c5add9a7155}
-      \strng{authorfullhash}{4d6439d0f280d35c4ecd3c5add9a7155}
+      \strng{namehash}{ea03de079c5df341d52913a239e62be4}
+      \strng{fullhash}{ea03de079c5df341d52913a239e62be4}
+      \strng{bibnamehash}{ea03de079c5df341d52913a239e62be4}
+      \strng{authorbibnamehash}{ea03de079c5df341d52913a239e62be4}
+      \strng{authornamehash}{ea03de079c5df341d52913a239e62be4}
+      \strng{authorfullhash}{ea03de079c5df341d52913a239e62be4}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]. While the dataset itself is older, it is frequently discussed in recent research.}
-      \field{title}{{Intrusion detection evaluation dataset (CIC-IDS2017)}}
+      \field{note}{Accessed on [July 31, 2025]. While the dataset itself is older, it is frequently discussed in recent research.}
+      \field{title}{Intrusion detection evaluation dataset (CIC-IDS2017)}
       \field{year}{2017}
       \verb{urlraw}
       \verb https://www.unb.ca/cic/datasets/ids-2017.html
@@ -548,38 +525,47 @@
       \field{pages}{785\bibrangedash 794}
       \range{pages}{10}
     \endentry
-    \entry{CiscoSnort3Guide2024}{manual}{}
+    \entry{P4NIDS2024}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e7a0a20878b9ace66e080da0fa1eb97f}{%
-           family={{Cisco Systems}},
-           familyi={C\bibinitperiod}}}%
+        {{un=1,uniquepart=given,hash=a8ba3c4119a9be35ceedb91c64119d7e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yaying},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
       }
-      \strng{namehash}{e7a0a20878b9ace66e080da0fa1eb97f}
-      \strng{fullhash}{e7a0a20878b9ace66e080da0fa1eb97f}
-      \strng{bibnamehash}{e7a0a20878b9ace66e080da0fa1eb97f}
-      \strng{authorbibnamehash}{e7a0a20878b9ace66e080da0fa1eb97f}
-      \strng{authornamehash}{e7a0a20878b9ace66e080da0fa1eb97f}
-      \strng{authorfullhash}{e7a0a20878b9ace66e080da0fa1eb97f}
+      \strng{namehash}{8b5e57603546363577238e06afced55a}
+      \strng{fullhash}{8b5e57603546363577238e06afced55a}
+      \strng{bibnamehash}{8b5e57603546363577238e06afced55a}
+      \strng{authorbibnamehash}{8b5e57603546363577238e06afced55a}
+      \strng{authornamehash}{8b5e57603546363577238e06afced55a}
+      \strng{authorfullhash}{8b5e57603546363577238e06afced55a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed 2025-08-25}
-      \field{title}{Cisco Secure Firewall Management Center Snort 3 Configuration Guide}
+      \field{eprintclass}{cs.NI}
+      \field{eprinttype}{arXiv}
+      \field{title}{P4-NIDS: High-Performance Network Monitoring and Intrusion Detection in P4}
       \field{year}{2024}
+      \verb{eprint}
+      \verb 2411.17987
+      \endverb
       \verb{urlraw}
-      \verb https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/management-center/snort/740/snort3-configuration-guide-v74/overview.html
+      \verb https://arxiv.org/abs/2411.17987
       \endverb
       \verb{url}
-      \verb https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/management-center/snort/740/snort3-configuration-guide-v74/overview.html
+      \verb https://arxiv.org/abs/2411.17987
       \endverb
     \endentry
     \entry{SnortManual2024}{manual}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dbba7d5a2ab0e8d1f632fa64891a43a3}{%
-           family={{Cisco/Talos}},
+           family={Cisco/Talos},
            familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{dbba7d5a2ab0e8d1f632fa64891a43a3}
@@ -602,48 +588,6 @@
       \endverb
       \verb{url}
       \verb https://snort.org/downloads/snortplus/snort_manual.pdf
-      \endverb
-    \endentry
-    \entry{researchgate2025comparative}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4b0127adec66b898620b86d2b9a6a6ba}{%
-           family={D.},
-           familyi={D\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=69b0b2764734b391d4aa32ea01c31705}{%
-           family={E.},
-           familyi={E\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \strng{fullhash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \strng{bibnamehash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \strng{authorbibnamehash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \strng{authornamehash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \strng{authorfullhash}{037ea4cbcf5bee67e67ba7bcd9ba0097}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Latest Technology in Engineering Management \& Applied Science}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{number}{5}
-      \field{title}{A Comparative Analysis of Signature-Based and Anomaly-Based Intrusion Detection Systems}
-      \field{volume}{14}
-      \field{year}{2025}
-      \field{pages}{209\bibrangedash 214}
-      \range{pages}{6}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/392429996_A_Comparative_Analysis_of_Signature-Based_and_Anomaly-Based_Intrusion_Detection_Systems
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/392429996_A_Comparative_Analysis_of_Signature-Based_and_Anomaly-Based_Intrusion_Detection_Systems
       \endverb
     \endentry
     \entry{Diana2025Overview}{article}{}
@@ -687,44 +631,181 @@
       \field{pages}{45\bibrangedash 58}
       \range{pages}{14}
     \endentry
-    \entry{brilliance2025ml}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=81b131d423547d4db1d17f512cd39e71}{%
-           family={F.},
-           familyi={F\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0324627ff86c927985c7fe144975d7ab}{%
-           family={G.},
-           familyi={G\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+    \entry{SuricataIPS2024}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be3ed0b10c93681d5b258c7469049d12}{%
+           family={docs},
+           familyi={d\bibinitperiod},
+           prefix={suricata},
+           prefixi={s\bibinitperiod},
+           prefixun=0}}%
       }
-      \strng{namehash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \strng{fullhash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \strng{bibnamehash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \strng{authorbibnamehash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \strng{authornamehash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \strng{authorfullhash}{47b68a59e5d11b0960c4ea14b0d3b62e}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{be3ed0b10c93681d5b258c7469049d12}
+      \strng{fullhash}{be3ed0b10c93681d5b258c7469049d12}
+      \strng{bibnamehash}{be3ed0b10c93681d5b258c7469049d12}
+      \strng{authorbibnamehash}{be3ed0b10c93681d5b258c7469049d12}
+      \strng{authornamehash}{be3ed0b10c93681d5b258c7469049d12}
+      \strng{authorfullhash}{be3ed0b10c93681d5b258c7469049d12}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Brilliance: Research of Artificial Intelligence}
-      \field{note}{This is an illustrative entry; specific volume, number, and pages would need to be confirmed.}
-      \field{number}{1}
-      \field{title}{The Effectiveness of Machine Learning Techniques in Anomaly Detection for Cyberattack Prevention: Systematic Literature Review 2020-2025}
-      \field{volume}{5}
-      \field{year}{2025}
+      \field{note}{Accessed 2025-08-25}
+      \field{title}{Setting up IPS/inline for Linux (NFQUEUE)}
+      \field{year}{2024}
       \verb{urlraw}
-      \verb https://jurnal.itscience.org/index.php/brilliance/article/view/6124
+      \verb https://docs.suricata.io/en/suricata-7.0.7/setting-up-ipsinline-for-linux.html
       \endverb
       \verb{url}
-      \verb https://jurnal.itscience.org/index.php/brilliance/article/view/6124
+      \verb https://docs.suricata.io/en/suricata-7.0.7/setting-up-ipsinline-for-linux.html
+      \endverb
+    \endentry
+    \entry{SuricataDocs2025}{manual}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=9b331a93c6881a1a5e5f76d11809f5dc}{%
+           family={docs},
+           familyi={d\bibinitperiod},
+           given={Suricata},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \strng{fullhash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \strng{bibnamehash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \strng{authorbibnamehash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \strng{authornamehash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \strng{authorfullhash}{9b331a93c6881a1a5e5f76d11809f5dc}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 2025-08-25}
+      \field{title}{Suricata 7.0.7 Documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://docs.suricata.io/en/suricata-7.0.7/
+      \endverb
+      \verb{url}
+      \verb https://docs.suricata.io/en/suricata-7.0.7/
+      \endverb
+    \endentry
+    \entry{semanticscholar2025imbalanced}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82fc268a37119a90885467b88aeebb84}{%
+           family={Elham\bibnamedelimb Abdullah\bibnamedelima Al-Qarni},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinithyphendelim Q\bibinitperiod},
+           given={Ghadah\bibnamedelimb Ahmad\bibnamedelima Al-Asmari},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82fc268a37119a90885467b88aeebb84}
+      \strng{fullhash}{82fc268a37119a90885467b88aeebb84}
+      \strng{bibnamehash}{82fc268a37119a90885467b88aeebb84}
+      \strng{authorbibnamehash}{82fc268a37119a90885467b88aeebb84}
+      \strng{authornamehash}{82fc268a37119a90885467b88aeebb84}
+      \strng{authorfullhash}{82fc268a37119a90885467b88aeebb84}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{(IJACSA) International Journal of Advanced Computer Science and Applications}
+      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
+      \field{number}{2}
+      \field{title}{Addressing Imbalanced Data in Network Intrusion Detection: A Review and Survey}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{136\bibrangedash 143}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/27b3/e96f846b58b42e63bf1add9f741cfc90a9a5.pdf
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/27b3/e96f846b58b42e63bf1add9f741cfc90a9a5.pdf
+      \endverb
+    \endentry
+    \entry{Maseno2022HybridReview}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71f3119b564f5e41ba986d764ca9a92a}{%
+           family={Elijah\bibnamedelimb M.\bibnamedelimi Maseno},
+           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Hongyan\bibnamedelima Xing},
+           giveni={H\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0,
+           suffix={Zenghui\bibnamedelima Wang},
+           suffixi={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{71f3119b564f5e41ba986d764ca9a92a}
+      \strng{fullhash}{71f3119b564f5e41ba986d764ca9a92a}
+      \strng{bibnamehash}{71f3119b564f5e41ba986d764ca9a92a}
+      \strng{authorbibnamehash}{71f3119b564f5e41ba986d764ca9a92a}
+      \strng{authornamehash}{71f3119b564f5e41ba986d764ca9a92a}
+      \strng{authorfullhash}{71f3119b564f5e41ba986d764ca9a92a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Security and Communication Networks}
+      \field{number}{1}
+      \field{title}{A Systematic Review on Hybrid Intrusion Detection System}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{9663052}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2022/9663052
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1155/2022/9663052
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1155/2022/9663052
+      \endverb
+    \endentry
+    \entry{akoto2024machine}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a37fb01501b621d8da5098f1ed1177ee}{%
+           family={Ennaji},
+           familyi={E\bibinitperiod},
+           given={Sabrine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \strng{fullhash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \strng{bibnamehash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \strng{authorbibnamehash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \strng{authornamehash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \strng{authorfullhash}{6ea1e542e8b38ebe5387433954fda3d7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CR}
+      \field{eprinttype}{arXiv}
+      \field{note}{arXiv preprint}
+      \field{title}{Adversarial Challenges in Network Intrusion Detection Systems: Research Insights and Future Prospects}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2409.18736
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2409.18736
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2409.18736
       \endverb
     \endentry
     \entry{friedman2001greedy}{article}{}
@@ -756,60 +837,92 @@
       \field{pages}{1189\bibrangedash 1230}
       \range{pages}{42}
     \endentry
-    \entry{al2020survey}{article}{}
-      \name{author}{7}{ul=2}{%
-        {{un=0,uniquepart=base,hash=4cba43026e260c50c106a1ea19af561b}{%
-           family={Al-Garadi},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Mohammed\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=4d158f750ad67b057762fa1a3e6cd716}{%
-           family={Mohamed},
-           familyi={M\bibinitperiod},
-           given={Ali},
-           giveni={A\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=2cd632b800ef98c228ed48bd0ead13b0}{%
-           family={Al-Ali},
-           familyi={A\bibinithyphendelim A\bibinitperiod},
-           given={Abdullah\bibnamedelima K},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9c4c82b64086ebf02e69657f20eb2660}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={Xiaojiang},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9e6417bfaff7d12e6c582dbd8e33404}{%
-           family={Ali},
-           familyi={A\bibinitperiod},
-           given={Iftikhar},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=05189762dbb0ad87814451304904fe83}{%
-           family={Guizani},
+    \entry{prophaze2025ids}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1e178ea7d7841605a478d835fbf61f62}{%
+           family={G},
            familyi={G\bibinitperiod},
-           given={Mohsen},
-           giveni={M\bibinitperiod},
+           given={Prasad},
+           giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=14ada0f9424d8dbad566a92cb2f53580}{%
-           family={Mumtaz},
-           familyi={M\bibinitperiod},
-           given={Shahid},
-           giveni={S\bibinitperiod},
+      }
+      \strng{namehash}{1e178ea7d7841605a478d835fbf61f62}
+      \strng{fullhash}{1e178ea7d7841605a478d835fbf61f62}
+      \strng{bibnamehash}{1e178ea7d7841605a478d835fbf61f62}
+      \strng{authorbibnamehash}{1e178ea7d7841605a478d835fbf61f62}
+      \strng{authornamehash}{1e178ea7d7841605a478d835fbf61f62}
+      \strng{authorfullhash}{1e178ea7d7841605a478d835fbf61f62}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Prophaze Blog}
+      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
+      \field{title}{Best Intrusion Detection Systems (IDS) to Use in 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://prophaze.com/blog/best-intrusion-detection-systems-2025/
+      \endverb
+      \verb{url}
+      \verb https://prophaze.com/blog/best-intrusion-detection-systems-2025/
+      \endverb
+    \endentry
+    \entry{VisQUIC2024}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=207bc948bd4cbe973882080eff28dbf8}{%
+           family={Gahtan},
+           familyi={G\bibinitperiod},
+           given={Barak},
+           giveni={B\bibinitperiod},
            givenun=0}}%
+      }
+      \strng{namehash}{6201fc84cbe84bc52a774125f065b28b}
+      \strng{fullhash}{6201fc84cbe84bc52a774125f065b28b}
+      \strng{bibnamehash}{6201fc84cbe84bc52a774125f065b28b}
+      \strng{authorbibnamehash}{6201fc84cbe84bc52a774125f065b28b}
+      \strng{authornamehash}{6201fc84cbe84bc52a774125f065b28b}
+      \strng{authorfullhash}{6201fc84cbe84bc52a774125f065b28b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CR}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Large-Scale Dataset for Encrypted Traffic Analysis (VisQUIC)}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2410.03728
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2410.03728
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2410.03728
+      \endverb
+    \endentry
+    \entry{al2020survey}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2cf68a830e828f91392a715a6e4824ef}{%
+           family={Al-Garadi},
+           familyi={A\bibinithyphendelim G\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{d7bc794d2a5be359802e978aa9a24727}
-      \strng{fullhash}{9e1dd6efd11efe8b962f0a4206edf41e}
-      \strng{bibnamehash}{d7bc794d2a5be359802e978aa9a24727}
-      \strng{authorbibnamehash}{d7bc794d2a5be359802e978aa9a24727}
-      \strng{authornamehash}{d7bc794d2a5be359802e978aa9a24727}
-      \strng{authorfullhash}{9e1dd6efd11efe8b962f0a4206edf41e}
+      \strng{namehash}{507fdf9a847025ed21be1ac1936ebdbb}
+      \strng{fullhash}{507fdf9a847025ed21be1ac1936ebdbb}
+      \strng{bibnamehash}{507fdf9a847025ed21be1ac1936ebdbb}
+      \strng{authorbibnamehash}{507fdf9a847025ed21be1ac1936ebdbb}
+      \strng{authornamehash}{507fdf9a847025ed21be1ac1936ebdbb}
+      \strng{authorfullhash}{507fdf9a847025ed21be1ac1936ebdbb}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -825,19 +938,19 @@
       \range{pages}{30}
     \endentry
     \entry{al2020comprehensive}{article}{}
-      \name{author}{6}{ul=2}{%
-        {{un=0,uniquepart=base,hash=4cba43026e260c50c106a1ea19af561b}{%
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=4cba43026e260c50c106a1ea19af561b}{%
            family={Al-Garadi},
            familyi={A\bibinithyphendelim G\bibinitperiod},
            given={Mohammed\bibnamedelima A},
            giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=a9eb77e3e99485a00f5cd05744189483}{%
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a9eb77e3e99485a00f5cd05744189483}{%
            family={Mohamed},
            familyi={M\bibinitperiod},
            given={Ansam},
            giveni={A\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=27e9d4aa0b4c4ef0ad64cf6113e016f2}{%
            family={Al-Ali},
            familyi={A\bibinithyphendelim A\bibinitperiod},
@@ -866,11 +979,11 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{ec9262a2efcba3b017efb1551a5deef9}
+      \strng{namehash}{79ac8d9d85f128b6ebfae183693c6308}
       \strng{fullhash}{728c0373ee347eeff7052d0104c630cd}
-      \strng{bibnamehash}{ec9262a2efcba3b017efb1551a5deef9}
-      \strng{authorbibnamehash}{ec9262a2efcba3b017efb1551a5deef9}
-      \strng{authornamehash}{ec9262a2efcba3b017efb1551a5deef9}
+      \strng{bibnamehash}{79ac8d9d85f128b6ebfae183693c6308}
+      \strng{authorbibnamehash}{79ac8d9d85f128b6ebfae183693c6308}
+      \strng{authornamehash}{79ac8d9d85f128b6ebfae183693c6308}
       \strng{authorfullhash}{728c0373ee347eeff7052d0104c630cd}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -1069,35 +1182,6 @@
       \field{title}{Generative adversarial nets}
       \field{year}{2014}
     \endentry
-    \entry{googlecloud2025threat}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=57f3af2a3d1051c172ab3c3db7d5409d}{%
-           family={{Google Cloud}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \strng{fullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \strng{bibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \strng{authorbibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \strng{authornamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \strng{authorfullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{Google Cloud Blog}}
-      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{Too many threats, too much data: new survey. Here's how to fix that}}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://cloud.google.com/blog/products/identity-security/too-many-threats-too-much-data-new-survey-heres-how-to-fix-that
-      \endverb
-      \verb{url}
-      \verb https://cloud.google.com/blog/products/identity-security/too-many-threats-too-much-data-new-survey-heres-how-to-fix-that
-      \endverb
-    \endentry
     \entry{s23218788}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=305c27a54a9cc3eba1ee45be08bd22db}{%
@@ -1147,18 +1231,21 @@
       \verb https://www.mdpi.com/1424-8220/23/21/8788
       \endverb
     \endentry
-    \entry{govuk2025cyber}{article}{}
+    \entry{itgovernance2025cia}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0baaf83382cae6919f47ceece5e07cb1}{%
-           family={{GOV.UK}},
-           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=35f92bb385fdba514112d873d8d5d362}{%
+           family={Governance},
+           familyi={G\bibinitperiod},
+           given={IT},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{0baaf83382cae6919f47ceece5e07cb1}
-      \strng{fullhash}{0baaf83382cae6919f47ceece5e07cb1}
-      \strng{bibnamehash}{0baaf83382cae6919f47ceece5e07cb1}
-      \strng{authorbibnamehash}{0baaf83382cae6919f47ceece5e07cb1}
-      \strng{authornamehash}{0baaf83382cae6919f47ceece5e07cb1}
-      \strng{authorfullhash}{0baaf83382cae6919f47ceece5e07cb1}
+      \strng{namehash}{35f92bb385fdba514112d873d8d5d362}
+      \strng{fullhash}{35f92bb385fdba514112d873d8d5d362}
+      \strng{bibnamehash}{35f92bb385fdba514112d873d8d5d362}
+      \strng{authorbibnamehash}{35f92bb385fdba514112d873d8d5d362}
+      \strng{authornamehash}{35f92bb385fdba514112d873d8d5d362}
+      \strng{authorfullhash}{35f92bb385fdba514112d873d8d5d362}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1167,55 +1254,13 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{s}
       \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{Cyber security breaches survey 2025}}
+      \field{title}{Understanding the CIA Triad in 2025: A Cornerstone of Cyber Security}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025
+      \verb https://www.itgovernance.co.uk/blog/what-is-the-cia-triad-and-why-is-it-important
       \endverb
       \verb{url}
-      \verb https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025
-      \endverb
-    \endentry
-    \entry{irjmets2025nids}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=8165181b06c493bfd0c280a18d56d5f7}{%
-           family={H.},
-           familyi={H\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=512a484dc49a82f3b00d46a81fdc8f23}{%
-           family={I.},
-           familyi={I\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{af894d98d176beae6fb404315a4af150}
-      \strng{fullhash}{af894d98d176beae6fb404315a4af150}
-      \strng{bibnamehash}{af894d98d176beae6fb404315a4af150}
-      \strng{authorbibnamehash}{af894d98d176beae6fb404315a4af150}
-      \strng{authornamehash}{af894d98d176beae6fb404315a4af150}
-      \strng{authorfullhash}{af894d98d176beae6fb404315a4af150}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Research Journal of Modern Engineering and Technology Sciences (IRJMETS)}
-      \field{note}{This is an illustrative entry; specific volume, number, and pages would need to be confirmed.}
-      \field{number}{Y}
-      \field{title}{NETWORK INTRUSION MODEL USING MACHINE LEARNING}
-      \field{volume}{X}
-      \field{year}{2025}
-      \field{pages}{PP\bibrangedash QQ}
-      \range{pages}{-1}
-      \verb{urlraw}
-      \verb https://www.irjmets.com/uploadedfiles/paper//issue_4_april_2025/72597/final/fin_irjmets1744641819.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.irjmets.com/uploadedfiles/paper//issue_4_april_2025/72597/final/fin_irjmets1744641819.pdf
+      \verb https://www.itgovernance.co.uk/blog/what-is-the-cia-triad-and-why-is-it-important
       \endverb
     \endentry
     \entry{habeeb2024two}{article}{}
@@ -1254,25 +1299,29 @@
       \range{pages}{10}
     \endentry
     \entry{Han2023HPNIDS}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7fc1f626087edf07f8df670944037429}{%
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f8e2343c2fd0c16b3912ef30ee112bca}{%
            family={Han},
            familyi={H\bibinitperiod},
-           given={J.},
+           given={Jonghoo},
            giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca5e1e0061429ac3dc0fecfa9b419e9d}{%
+           family={Pak},
+           familyi={P\bibinitperiod},
+           given={Wooguil},
+           giveni={W\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {MDPI}%
       }
-      \strng{namehash}{aaf5659bef3f886d5209e059381404b3}
-      \strng{fullhash}{aaf5659bef3f886d5209e059381404b3}
-      \strng{bibnamehash}{aaf5659bef3f886d5209e059381404b3}
-      \strng{authorbibnamehash}{aaf5659bef3f886d5209e059381404b3}
-      \strng{authornamehash}{aaf5659bef3f886d5209e059381404b3}
-      \strng{authorfullhash}{aaf5659bef3f886d5209e059381404b3}
+      \strng{namehash}{feccebf982f804348d0daab17d8adf5a}
+      \strng{fullhash}{feccebf982f804348d0daab17d8adf5a}
+      \strng{bibnamehash}{feccebf982f804348d0daab17d8adf5a}
+      \strng{authorbibnamehash}{feccebf982f804348d0daab17d8adf5a}
+      \strng{authornamehash}{feccebf982f804348d0daab17d8adf5a}
+      \strng{authorfullhash}{feccebf982f804348d0daab17d8adf5a}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -1281,7 +1330,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics}
       \field{number}{4}
-      \field{title}{High Performance Network Intrusion Detection System with Low Memory and Zero Detection Delay}
+      \field{title}{High Performance Network Intrusion Detection System Using Two-Stage LSTM and Incremental Created Hybrid Features}
       \field{volume}{12}
       \field{year}{2023}
       \field{pages}{956}
@@ -1296,71 +1345,47 @@
       \verb https://www.mdpi.com/2079-9292/12/4/956
       \endverb
     \endentry
-    \entry{itgovernance2025cia}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=80489132d89b280259156a747fd0a1e8}{%
-           family={{IT Governance}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{80489132d89b280259156a747fd0a1e8}
-      \strng{fullhash}{80489132d89b280259156a747fd0a1e8}
-      \strng{bibnamehash}{80489132d89b280259156a747fd0a1e8}
-      \strng{authorbibnamehash}{80489132d89b280259156a747fd0a1e8}
-      \strng{authornamehash}{80489132d89b280259156a747fd0a1e8}
-      \strng{authorfullhash}{80489132d89b280259156a747fd0a1e8}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{s}
-      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{Understanding the CIA Triad in 2025: A Cornerstone of Cyber Security}}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.itgovernance.co.uk/blog/what-is-the-cia-triad-and-why-is-it-important
-      \endverb
-      \verb{url}
-      \verb https://www.itgovernance.co.uk/blog/what-is-the-cia-triad-and-why-is-it-important
-      \endverb
-    \endentry
-    \entry{semanticscholar2025imbalanced}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cbc6df7e681002be87715575774f55d9}{%
-           family={J.},
-           familyi={J\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=44b7dcb28cbe957327843ec36825f70c}{%
-           family={K.},
+    \entry{researchgate2025comparative}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ccfb91a353f7cfa84d03361cd053f567}{%
+           family={Kamboj},
            familyi={K\bibinitperiod},
-           given={Author},
+           given={Arvind},
            giveni={A\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=c108a25b5ec23b4a449eb0d523b6bc0f}{%
+           family={Ravindran},
+           familyi={R\bibinitperiod},
+           given={Vasudev},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8967a7440f93382795feac71304decf}{%
+           family={Ojha},
+           familyi={O\bibinitperiod},
+           given={Sharad},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{24365adb3bf9c978189a007de3b48703}
-      \strng{fullhash}{24365adb3bf9c978189a007de3b48703}
-      \strng{bibnamehash}{24365adb3bf9c978189a007de3b48703}
-      \strng{authorbibnamehash}{24365adb3bf9c978189a007de3b48703}
-      \strng{authornamehash}{24365adb3bf9c978189a007de3b48703}
-      \strng{authorfullhash}{24365adb3bf9c978189a007de3b48703}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \strng{namehash}{6c77e1684641ce9f593c3907b3830c38}
+      \strng{fullhash}{6c77e1684641ce9f593c3907b3830c38}
+      \strng{bibnamehash}{6c77e1684641ce9f593c3907b3830c38}
+      \strng{authorbibnamehash}{6c77e1684641ce9f593c3907b3830c38}
+      \strng{authornamehash}{6c77e1684641ce9f593c3907b3830c38}
+      \strng{authorfullhash}{6c77e1684641ce9f593c3907b3830c38}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Semantic Scholar}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{title}{Addressing Imbalanced Data in Network Intrusion Detection: A Review and Survey}
+      \field{journaltitle}{International Journal of Latest Technology in Engineering Management \& Applied Science}
+      \field{title}{A Comparative Analysis of Signature-Based and Anomaly-Based Intrusion Detection Systems}
+      \field{volume}{14}
       \field{year}{2025}
-      \verb{urlraw}
-      \verb https://pdfs.semanticscholar.org/27b3/e96f846b58b42e63bf1add9f741cfc90a9a5.pdf
-      \endverb
-      \verb{url}
-      \verb https://pdfs.semanticscholar.org/27b3/e96f846b58b42e63bf1add9f741cfc90a9a5.pdf
+      \field{pages}{209\bibrangedash 214}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.51583/IJLTEMAS.2025.140500026
       \endverb
     \endentry
     \entry{kasongo2021improving}{article}{}
@@ -1401,44 +1426,6 @@
       \field{pages}{3806}
       \range{pages}{1}
     \endentry
-    \entry{kaur2024challenges}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c477877c54668cbc7c538d7456070ca2}{%
-           family={Kaur},
-           familyi={K\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=2}}%
-      }
-      \strng{namehash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \strng{fullhash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \strng{bibnamehash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \strng{authorbibnamehash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \strng{authornamehash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \strng{authorfullhash}{f1065da36e3f0989a4c553e7c74bcc6f}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2408.02921}
-      \field{note}{This is an illustrative entry for a paper discussing zero-day challenges.}
-      \field{title}{Interoperability and Explicable AI-based Zero-Day Attacks Detection Process in Smart Community}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://arxiv.org/html/2408.02921v1
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/html/2408.02921v1
-      \endverb
-    \endentry
     \entry{khan2021ensemble}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=d0c765cedcaeac8e3631cb2e8d03530e}{%
@@ -1474,14 +1461,51 @@
       \field{pages}{195\bibrangedash 210}
       \range{pages}{16}
     \endentry
+    \entry{researchgate2024challenges}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a9f125c0da1609c3d17ce0b00596784a}{%
+           family={Khenwar},
+           familyi={K\bibinitperiod},
+           given={Medha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0f14258120117d9f7314713255cd53}{%
+           family={Nawal},
+           familyi={N\bibinitperiod},
+           given={Meenakshi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{036ff0c391befedd885ba12af46ae727}
+      \strng{fullhash}{036ff0c391befedd885ba12af46ae727}
+      \strng{bibnamehash}{036ff0c391befedd885ba12af46ae727}
+      \strng{authorbibnamehash}{036ff0c391befedd885ba12af46ae727}
+      \strng{authornamehash}{036ff0c391befedd885ba12af46ae727}
+      \strng{authorfullhash}{036ff0c391befedd885ba12af46ae727}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SKIT Research Journal}
+      \field{title}{Challenges and Limitations of IDS: A Comprehensive Assessment and Future Perspectives}
+      \field{volume}{Vol 14}
+      \field{year}{2024}
+      \field{pages}{35\bibrangedash 39}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.47904/IJSKIT.14.1.2024.35-39
+      \endverb
+    \endentry
     \entry{kim2021adversarial}{article}{}
       \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=9808488e56637ff4c41280754434d993}{%
+        {{un=0,uniquepart=base,hash=9808488e56637ff4c41280754434d993}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={Jaehwan},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=cfcf6a9d5cb8fb62ca1f8ec6bdcdd185}{%
            family={Hwang},
            familyi={H\bibinitperiod},
@@ -1525,12 +1549,12 @@
            given={Naveen},
            giveni={N\bibinitperiod},
            givenun=1}}%
-        {{un=2,uniquepart=given,hash=00205351ab4f99c0159fcd1ce4793acc}{%
+        {{un=1,uniquepart=given,hash=00205351ab4f99c0159fcd1ce4793acc}{%
            family={Kumar},
            familyi={K\bibinitperiod},
            given={Sandeep},
            giveni={S\bibinitperiod},
-           givenun=2}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
@@ -1554,52 +1578,60 @@
       \field{pages}{107310}
       \range{pages}{1}
     \endentry
-    \entry{arxiv2025defensive}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=3ecd96fb2755054db8af513a8b9c50a0}{%
-           family={L.},
+    \entry{le2021ensemble}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ed69b2dde5a51882a00429921f5af68b}{%
+           family={Le},
            familyi={L\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
+           given={T.\bibnamedelimi T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4cf7be8fd3ec82c091a51601f02ef97e}{%
-           family={M.},
-           familyi={M\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=135d8a1902f2e89c3bea3ae01fdb2b5f}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21a00d8a86198c0718e2efe3b27784db}{%
+           family={Huynh},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b84c39d31cb098fc15472dc8df374aea}
-      \strng{fullhash}{b84c39d31cb098fc15472dc8df374aea}
-      \strng{bibnamehash}{b84c39d31cb098fc15472dc8df374aea}
-      \strng{authorbibnamehash}{b84c39d31cb098fc15472dc8df374aea}
-      \strng{authornamehash}{b84c39d31cb098fc15472dc8df374aea}
-      \strng{authorfullhash}{b84c39d31cb098fc15472dc8df374aea}
+      \list{publisher}{1}{%
+        {PeerJ}%
+      }
+      \strng{namehash}{a17f498fc612aafa99a602c9866e0bab}
+      \strng{fullhash}{a17f498fc612aafa99a602c9866e0bab}
+      \strng{bibnamehash}{a17f498fc612aafa99a602c9866e0bab}
+      \strng{authorbibnamehash}{a17f498fc612aafa99a602c9866e0bab}
+      \strng{authornamehash}{a17f498fc612aafa99a602c9866e0bab}
+      \strng{authorfullhash}{a17f498fc612aafa99a602c9866e0bab}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2502.15561}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{title}{A Defensive Framework Against Adversarial Attacks on Machine Learning-Based Network Intrusion Detection Systems}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://arxiv.org/html/2502.15561v1
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/html/2502.15561v1
+      \field{journaltitle}{PeerJ Computer Science}
+      \field{title}{An ensemble deep learning approach for network intrusion detection}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{e2289}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.7717/peerj-cs.2289
       \endverb
     \endentry
     \entry{li2022challenges}{inproceedings}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=ae6f64f7b429f6425fbe070323390f1b}{%
+        {{un=0,uniquepart=base,hash=ae6f64f7b429f6425fbe070323390f1b}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Z},
            giveni={Z\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=1,uniquepart=given,hash=1f26f664835ac6c347db22001b657f1a}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
@@ -1624,6 +1656,42 @@
       \field{year}{2022}
       \field{pages}{45\bibrangedash 50}
       \range{pages}{6}
+    \endentry
+    \entry{ACM2024DLIDSReview}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=36761771aa8bf1f7b11b86004958f6fc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhiqi},
+           giveni={Z\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{fullhash}{37340581de52be20b5ee07a609e47d45}
+      \strng{bibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorbibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authornamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorfullhash}{37340581de52be20b5ee07a609e47d45}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the ACM Conference}
+      \field{title}{Toward Deep Learning-Based Intrusion Detection Systems: A Survey of Recent Advances}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3688574.3688578
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3688574.3688578
+      \endverb
     \endentry
     \entry{liu2023intrusion}{article}{}
       \name{author}{2}{}{%
@@ -1695,30 +1763,54 @@
       \field{pages}{301\bibrangedash 306}
       \range{pages}{6}
     \endentry
+    \entry{QUICBackbone2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9752b894a6b024e10698836ca12f30b2}{%
+           family={Luxemburk},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d25ff6222154e4481856ce0b8865baf6}
+      \strng{fullhash}{d25ff6222154e4481856ce0b8865baf6}
+      \strng{bibnamehash}{d25ff6222154e4481856ce0b8865baf6}
+      \strng{authorbibnamehash}{d25ff6222154e4481856ce0b8865baf6}
+      \strng{authornamehash}{d25ff6222154e4481856ce0b8865baf6}
+      \strng{authorfullhash}{d25ff6222154e4481856ce0b8865baf6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data in Brief}
+      \field{title}{A Large One-Month QUIC Network Traffic Dataset from Backbone Lines}
+      \field{volume}{46}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1016/j.dib.2022.108916
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352340923000069
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352340923000069
+      \endverb
+    \endentry
     \entry{mahfouz2022systematic}{article}{}
-      \name{author}{4}{}{%
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1a3b536a51907e6e4424525a2b7efa6d}{%
            family={Mahfouz},
            familyi={M\bibinitperiod},
            given={Ahmad},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d483a4c87e3e869c07910af058745163}{%
-           family={Al-Haj},
-           familyi={A\bibinithyphendelim H\bibinitperiod},
-           given={Abdullah\bibnamedelima A},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89b6612a1d69b09b9c064884eea2d998}{%
-           family={Alsaidi},
-           familyi={A\bibinitperiod},
-           given={Mohammed},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92909a44aa683da6d573c4ef0ef17fc2}{%
-           family={Al-Ghamdi},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Abdullah},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
@@ -1726,11 +1818,11 @@
         {Elsevier}%
       }
       \strng{namehash}{111433d53da429783cad3097e5378658}
-      \strng{fullhash}{10d7b88ac94cf589c5f8607e053052af}
+      \strng{fullhash}{111433d53da429783cad3097e5378658}
       \strng{bibnamehash}{111433d53da429783cad3097e5378658}
       \strng{authorbibnamehash}{111433d53da429783cad3097e5378658}
       \strng{authornamehash}{111433d53da429783cad3097e5378658}
-      \strng{authorfullhash}{10d7b88ac94cf589c5f8607e053052af}
+      \strng{authorfullhash}{111433d53da429783cad3097e5378658}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1743,48 +1835,6 @@
       \field{year}{2022}
       \field{pages}{103407}
       \range{pages}{1}
-    \endentry
-    \entry{Maseno2022HybridReview}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c4e2e31a436a027822e325e551f05494}{%
-           family={Maseno},
-           familyi={M\bibinitperiod},
-           given={Erick\bibnamedelima M.},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Hindawi}%
-      }
-      \strng{namehash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \strng{fullhash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \strng{bibnamehash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \strng{authorbibnamehash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \strng{authornamehash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \strng{authorfullhash}{73b8856d4d2a298764f660e5b7fa1f0d}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Security and Communication Networks}
-      \field{title}{A Systematic Review on Hybrid Intrusion Detection System}
-      \field{volume}{2022}
-      \field{year}{2022}
-      \field{pages}{9663052}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2022/9663052
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1155/2022/9663052
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1155/2022/9663052
-      \endverb
     \endentry
     \entry{AppliedIntelligence2025Benchmark}{article}{}
       \true{moreauthor}
@@ -1815,7 +1865,10 @@
       \field{journaltitle}{Applied Intelligence}
       \field{note}{Early access}
       \field{title}{Advanced IDS: A Comparative Study of Datasets and Algorithms for Network-Flow-Based NIDS}
+      \field{volume}{55}
       \field{year}{2025}
+      \field{pages}{1\bibrangedash 30}
+      \range{pages}{30}
       \verb{urlraw}
       \verb https://link.springer.com/article/10.1007/s10489-025-06422-4
       \endverb
@@ -1826,77 +1879,20 @@
     \entry{almutairi2025intrusion}{article}{}
       \true{moreauthor}
       \true{morelabelname}
-      \name{author}{10}{}{%
-        {{un=1,uniquepart=given,hash=f960942325c7c136ef1230e3753bcc11}{%
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36fc5e351d7450967e1ccd086682b854}{%
            family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Mohammed},
-           giveni={M\bibinitperiod},
-           givenun=1}}%
-        {{un=2,uniquepart=given,hash=60b0d458d6c4091058c4ec7d68335667}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Abdullah},
-           giveni={A\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=e60bbf958f2f4e1124f35b8bf02adfe4}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Sultan},
-           giveni={S\bibinitperiod},
-           givenun=2}}%
-        {{un=1,uniquepart=given,hash=b51812f62f6d62a8f88850543c092052}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Fahad},
-           giveni={F\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=8391b3c77847c689d7f3850ef3bb03c8}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Omar},
-           giveni={O\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=0c020b08de0b1d0e89d58a9a3a8cfe22}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Nasser},
-           giveni={N\bibinitperiod},
-           givenun=1}}%
-        {{un=2,uniquepart=given,hash=917ea57d15c1af70ec782afb8f254393}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Abdulaziz},
-           giveni={A\bibinitperiod},
-           givenun=2}}%
-        {{un=1,uniquepart=given,hash=1a41ff25cae55180b9e01a0df2948693}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Khalid},
-           giveni={K\bibinitperiod},
-           givenun=1}}%
-        {{un=2,uniquepart=given,hash=78fe33a9e74d8d82eb2fc6395cabc890}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Saud},
-           giveni={S\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=60b0d458d6c4091058c4ec7d68335667}{%
-           family={Al-Mutairi},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={Abdullah},
-           giveni={A\bibinitperiod},
-           givenun=2}}%
+           familyi={A\bibinithyphendelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {MDPI}%
       }
-      \strng{namehash}{202b7a01a0fdeb0e87f7979c436a41c5}
-      \strng{fullhash}{03b273713d40888dc8caf404b6d71e59}
-      \strng{bibnamehash}{202b7a01a0fdeb0e87f7979c436a41c5}
-      \strng{authorbibnamehash}{202b7a01a0fdeb0e87f7979c436a41c5}
-      \strng{authornamehash}{202b7a01a0fdeb0e87f7979c436a41c5}
-      \strng{authorfullhash}{03b273713d40888dc8caf404b6d71e59}
+      \strng{namehash}{3144c96290564ee7070d2e6287748e3e}
+      \strng{fullhash}{3144c96290564ee7070d2e6287748e3e}
+      \strng{bibnamehash}{3144c96290564ee7070d2e6287748e3e}
+      \strng{authorbibnamehash}{3144c96290564ee7070d2e6287748e3e}
+      \strng{authornamehash}{3144c96290564ee7070d2e6287748e3e}
+      \strng{authorfullhash}{3144c96290564ee7070d2e6287748e3e}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1910,44 +1906,6 @@
       \field{year}{2025}
       \field{pages}{1845}
       \range{pages}{1}
-    \endentry
-    \entry{rdiscovery2025cicids}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c63318166c25df61fbc8bff10e3beeba}{%
-           family={N.},
-           familyi={N\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=954b1a7a3cf199c35346dc67cac79cbf}{%
-           family={O.},
-           familyi={O\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \strng{fullhash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \strng{bibnamehash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \strng{authorbibnamehash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \strng{authornamehash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \strng{authorfullhash}{3d75405bf1d2dded5d58f04f9c7a3db1}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{R Discovery}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{title}{CICIDS2017 Dataset Research Articles}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://discovery.researcher.life/topic/cicids-2017-datasets/17731548?page=1&topic_name=CICIDS-2017%20Datasets
-      \endverb
-      \verb{url}
-      \verb https://discovery.researcher.life/topic/cicids-2017-datasets/17731548?page=1&topic_name=CICIDS-2017%20Datasets
-      \endverb
     \endentry
     \entry{Naghib2025HybridReview}{article}{}
       \true{moreauthor}
@@ -1977,8 +1935,11 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Artificial Intelligence Review}
       \field{note}{Online first}
-      \field{title}{A Comprehensive and Systematic Review on Hybrid Intrusion Detection Systems}
+      \field{title}{A comprehensive and systematic literature review on intrusion detection systems in the internet of medical things: current status, challenges, and opportunities}
+      \field{volume}{58}
       \field{year}{2025}
+      \field{pages}{1\bibrangedash 57}
+      \range{pages}{57}
       \verb{urlraw}
       \verb https://link.springer.com/article/10.1007/s10462-024-11101-w
       \endverb
@@ -1986,229 +1947,74 @@
       \verb https://link.springer.com/article/10.1007/s10462-024-11101-w
       \endverb
     \endentry
-    \entry{EncryptedNIDS2022}{misc}{}
+    \entry{googlecloud2025threat}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e7018f3586e18dd5fc5c08e07c0e7afd}{%
-           family={omitted},
-           familyi={o\bibinitperiod},
-           given={Authors},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=1c9d27f25fea3c86a47bba4d6d6b75cf}{%
+           family={Nichols},
+           familyi={N\bibinitperiod},
+           given={Jayce},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{fullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{bibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorbibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authornamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorfullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \field{extraname}{1}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \strng{namehash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \strng{fullhash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \strng{bibnamehash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \strng{authorbibnamehash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \strng{authornamehash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \strng{authorfullhash}{1c9d27f25fea3c86a47bba4d6d6b75cf}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{ResearchGate preprint}
+      \field{journaltitle}{Google Cloud Blog}
+      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
+      \field{title}{Too many threats, too much data: new survey. Here's how to fix that}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://cloud.google.com/blog/products/identity-security/too-many-threats-too-much-data-new-survey-heres-how-to-fix-that
+      \endverb
+      \verb{url}
+      \verb https://cloud.google.com/blog/products/identity-security/too-many-threats-too-much-data-new-survey-heres-how-to-fix-that
+      \endverb
+    \endentry
+    \entry{EncryptedNIDS2022}{unknown}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9dd1bc4a2a834edd21aec2e87cd596a6}{%
+           family={Papadogiannaki},
+           familyi={P\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b89d82a94403c6f65be5ff0ed81f0b3}{%
+           family={Tsirantonakis},
+           familyi={T\bibinitperiod},
+           given={Giorgos},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28205d8976912470245f745ecd7df210}{%
+           family={Ioannidis},
+           familyi={I\bibinitperiod},
+           given={Sotiris},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18232b401d868b0ec75542f5a2c6430d}
+      \strng{fullhash}{18232b401d868b0ec75542f5a2c6430d}
+      \strng{bibnamehash}{18232b401d868b0ec75542f5a2c6430d}
+      \strng{authorbibnamehash}{18232b401d868b0ec75542f5a2c6430d}
+      \strng{authornamehash}{18232b401d868b0ec75542f5a2c6430d}
+      \strng{authorfullhash}{18232b401d868b0ec75542f5a2c6430d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
       \field{title}{Network Intrusion Detection in Encrypted Traffic}
       \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/362263511_Network_Intrusion_Detection_in_Encrypted_Traffic
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/362263511_Network_Intrusion_Detection_in_Encrypted_Traffic
-      \endverb
-    \endentry
-    \entry{QUICBackbone2023}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e7018f3586e18dd5fc5c08e07c0e7afd}{%
-           family={omitted},
-           familyi={o\bibinitperiod},
-           given={Authors},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{fullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{bibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorbibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authornamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorfullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \field{extraname}{2}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Data in Brief}
-      \field{title}{A Large One-Month QUIC Network Traffic Dataset from Backbone Lines}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2352340923000069
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2352340923000069
-      \endverb
-    \endentry
-    \entry{ACM2024DLIDSReview}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e7018f3586e18dd5fc5c08e07c0e7afd}{%
-           family={omitted},
-           familyi={o\bibinitperiod},
-           given={Authors},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{fullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{bibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorbibnamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authornamehash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \strng{authorfullhash}{e7018f3586e18dd5fc5c08e07c0e7afd}
-      \field{extraname}{3}
-      \field{sortinit}{o}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of ACM Conference (short survey paper)}
-      \field{title}{Toward Deep Learning-Based Intrusion Detection Systems: A Survey of Recent Advances}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3688574.3688578
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3688574.3688578
-      \endverb
-    \endentry
-    \entry{SuricataIPS2024}{manual}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=15f9a1c1be3dd82547829f49a282e37d}{%
-           family={{Open Information Security Foundation}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{fullhash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{bibnamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authorbibnamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authornamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authorfullhash}{15f9a1c1be3dd82547829f49a282e37d}
-      \field{extraname}{1}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed 2025-08-25}
-      \field{title}{Setting up IPS/inline for Linux (NFQUEUE)}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://docs.suricata.io/en/suricata-7.0.7/setting-up-ipsinline-for-linux.html
-      \endverb
-      \verb{url}
-      \verb https://docs.suricata.io/en/suricata-7.0.7/setting-up-ipsinline-for-linux.html
-      \endverb
-    \endentry
-    \entry{SuricataDocs2025}{manual}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=15f9a1c1be3dd82547829f49a282e37d}{%
-           family={{Open Information Security Foundation}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{fullhash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{bibnamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authorbibnamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authornamehash}{15f9a1c1be3dd82547829f49a282e37d}
-      \strng{authorfullhash}{15f9a1c1be3dd82547829f49a282e37d}
-      \field{extraname}{2}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed 2025-08-25}
-      \field{title}{Suricata 7.0.7 Documentation}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://docs.suricata.io/en/suricata-7.0.7/
-      \endverb
-      \verb{url}
-      \verb https://docs.suricata.io/en/suricata-7.0.7/
-      \endverb
-    \endentry
-    \entry{pubmedcentral2025ids}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=91fe47c7c195e53e1e8fcc1d569abd50}{%
-           family={P.},
-           familyi={P\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e780f25cbd440faf5576988e336e53e}{%
-           family={Q.},
-           familyi={Q\bibinitperiod},
-           given={Author},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b48c365b793a91ee55f27dd305843047}
-      \strng{fullhash}{b48c365b793a91ee55f27dd305843047}
-      \strng{bibnamehash}{b48c365b793a91ee55f27dd305843047}
-      \strng{authorbibnamehash}{b48c365b793a91ee55f27dd305843047}
-      \strng{authornamehash}{b48c365b793a91ee55f27dd305843047}
-      \strng{authorfullhash}{b48c365b793a91ee55f27dd305843047}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PubMed Central}
-      \field{note}{This is an illustrative entry; specific journal/conference details would need to be confirmed.}
-      \field{title}{Intrusion detection system based on machine learning using least square support vector machine}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11978955/
-      \endverb
-      \verb{url}
-      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11978955/
-      \endverb
-    \endentry
-    \entry{prophaze2025ids}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f36b4e2b8f82424e3b8f9ea5f89caa7d}{%
-           family={{Prophaze}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \strng{fullhash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \strng{bibnamehash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \strng{authorbibnamehash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \strng{authornamehash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \strng{authorfullhash}{f36b4e2b8f82424e3b8f9ea5f89caa7d}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{Prophaze Blog}}
-      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{Best Intrusion Detection Systems (IDS) to Use in 2025}}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://prophaze.com/blog/best-intrusion-detection-systems-2025/
-      \endverb
-      \verb{url}
-      \verb https://prophaze.com/blog/best-intrusion-detection-systems-2025/
-      \endverb
     \endentry
     \entry{al2022cicids}{article}{}
       \name{author}{3}{}{%
@@ -2367,26 +2173,29 @@
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c49551cbd92ea98e4e72645cd4b1fb69}{%
+        {{un=0,uniquepart=base,hash=013310dfebc8d79316ecba5e4c094cc2}{%
            family={Rivitti},
            familyi={R\bibinitperiod},
-           given={Alberto},
+           given={Alessandro},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d16a7c9c6545007a707b57ea48e088b1}
-      \strng{fullhash}{d16a7c9c6545007a707b57ea48e088b1}
-      \strng{bibnamehash}{d16a7c9c6545007a707b57ea48e088b1}
-      \strng{authorbibnamehash}{d16a7c9c6545007a707b57ea48e088b1}
-      \strng{authornamehash}{d16a7c9c6545007a707b57ea48e088b1}
-      \strng{authorfullhash}{d16a7c9c6545007a707b57ea48e088b1}
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{ee688241b241fb8e1e5538f88784adb5}
+      \strng{fullhash}{ee688241b241fb8e1e5538f88784adb5}
+      \strng{bibnamehash}{ee688241b241fb8e1e5538f88784adb5}
+      \strng{authorbibnamehash}{ee688241b241fb8e1e5538f88784adb5}
+      \strng{authornamehash}{ee688241b241fb8e1e5538f88784adb5}
+      \strng{authorfullhash}{ee688241b241fb8e1e5538f88784adb5}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of ASPLOS}
+      \field{booktitle}{Proceedings of the ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)}
       \field{title}{eHDL: Turning eBPF/XDP Programs into Hardware}
       \field{year}{2023}
       \verb{urlraw}
@@ -2482,6 +2291,76 @@
       \field{pages}{416\bibrangedash 421}
       \range{pages}{6}
     \endentry
+    \entry{govuk2025cyber}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0138ebda78e54e83a771c1181c5bd463}{%
+           family={Saman\bibnamedelimb Rizvi\bibnamedelima (DSIT)},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Eleanor\bibnamedelimb Fordham\bibnamedelimb (Home\bibnamedelima Office)},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0138ebda78e54e83a771c1181c5bd463}
+      \strng{fullhash}{0138ebda78e54e83a771c1181c5bd463}
+      \strng{bibnamehash}{0138ebda78e54e83a771c1181c5bd463}
+      \strng{authorbibnamehash}{0138ebda78e54e83a771c1181c5bd463}
+      \strng{authornamehash}{0138ebda78e54e83a771c1181c5bd463}
+      \strng{authorfullhash}{0138ebda78e54e83a771c1181c5bd463}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cybersecurity Survey}
+      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
+      \field{title}{Cyber security breaches survey 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025
+      \endverb
+    \endentry
+    \entry{kaur2024challenges}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0717839abbca5a2cc43ec6e5f14a3565}{%
+           family={Sayduzzaman},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{162695ab8a5cc7e30dc954708355072b}
+      \strng{fullhash}{162695ab8a5cc7e30dc954708355072b}
+      \strng{bibnamehash}{162695ab8a5cc7e30dc954708355072b}
+      \strng{authorbibnamehash}{162695ab8a5cc7e30dc954708355072b}
+      \strng{authornamehash}{162695ab8a5cc7e30dc954708355072b}
+      \strng{authorfullhash}{162695ab8a5cc7e30dc954708355072b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CR}
+      \field{eprinttype}{arXiv}
+      \field{note}{arXiv preprint}
+      \field{title}{Interoperability and Explicable AI-based Zero-Day Attacks Detection Process in Smart Community}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2408.02921
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2408.02921
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2408.02921
+      \endverb
+    \endentry
     \entry{elsayed2021survey}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=91e1b3bbd2e3352e67098dcf9ba24d25}{%
@@ -2529,7 +2408,7 @@
     \entry{securityscorecard2025cia}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=799e619769d182399ebe06d9843babab}{%
-           family={{SecurityScorecard}},
+           family={SecurityScorecard},
            familyi={S\bibinitperiod}}}%
       }
       \strng{namehash}{799e619769d182399ebe06d9843babab}
@@ -2546,7 +2425,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{s}
       \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
-      \field{title}{{What is the CIA Triad? Definition, Importance, \& Examples}}
+      \field{title}{What is the CIA Triad? Definition, Importance, \& Examples}
       \field{year}{2025}
       \verb{urlraw}
       \verb https://securityscorecard.com/blog/what-is-the-cia-triad/
@@ -2677,75 +2556,21 @@
       \field{pages}{252\bibrangedash 258}
       \range{pages}{7}
     \endentry
-    \entry{sharma2024advancements}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a3fd4f0ea9e0c4ee7050feb90555899e}{%
-           family={Sharma},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=c82c56d81c127d3b399ad89518718176}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=1}}%
-        {{un=2,uniquepart=given,hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=2}}%
-      }
-      \strng{namehash}{e7db1285f2c94a5934042027a776c28d}
-      \strng{fullhash}{e7db1285f2c94a5934042027a776c28d}
-      \strng{bibnamehash}{e7db1285f2c94a5934042027a776c28d}
-      \strng{authorbibnamehash}{e7db1285f2c94a5934042027a776c28d}
-      \strng{authornamehash}{e7db1285f2c94a5934042027a776c28d}
-      \strng{authorfullhash}{e7db1285f2c94a5934042027a776c28d}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACCENTS Journals}
-      \field{note}{This is an illustrative entry; specific volume, number, and pages would need to be confirmed.}
-      \field{number}{Y}
-      \field{title}{Evolution and advancements in intrusion detection systems: from traditional methods to deep learning and federated learning approaches}
-      \field{volume}{X}
-      \field{year}{2024}
-      \field{pages}{PP\bibrangedash QQ}
-      \range{pages}{-1}
-      \verb{urlraw}
-      \verb https://accentsjournals.org/PaperDirectory/Journal/TIS/2024/7/1.pdf
-      \endverb
-      \verb{url}
-      \verb https://accentsjournals.org/PaperDirectory/Journal/TIS/2024/7/1.pdf
-      \endverb
-    \endentry
     \entry{singh2025comparative}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=b8812d5710d5f4148ed606f77dbbd8a4}{%
-           family={Singh},
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=507663b41b5e1757dc9ffe4ff16506c4}{%
+           family={Soumik},
            familyi={S\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=1}}%
-        {{un=2,uniquepart=given,hash=70bdc1ea5f8683abeb9fbeb80263d83f}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=2}}%
+           given={MD\bibnamedelima Shadman},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{ad23bc52723450d14f5b7697a1dcf4fb}
-      \strng{fullhash}{ad23bc52723450d14f5b7697a1dcf4fb}
-      \strng{bibnamehash}{ad23bc52723450d14f5b7697a1dcf4fb}
-      \strng{authorbibnamehash}{ad23bc52723450d14f5b7697a1dcf4fb}
-      \strng{authornamehash}{ad23bc52723450d14f5b7697a1dcf4fb}
-      \strng{authorfullhash}{ad23bc52723450d14f5b7697a1dcf4fb}
+      \strng{namehash}{507663b41b5e1757dc9ffe4ff16506c4}
+      \strng{fullhash}{507663b41b5e1757dc9ffe4ff16506c4}
+      \strng{bibnamehash}{507663b41b5e1757dc9ffe4ff16506c4}
+      \strng{authorbibnamehash}{507663b41b5e1757dc9ffe4ff16506c4}
+      \strng{authornamehash}{507663b41b5e1757dc9ffe4ff16506c4}
+      \strng{authorfullhash}{507663b41b5e1757dc9ffe4ff16506c4}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2754,11 +2579,11 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research Archive}
       \field{note}{This is an illustrative entry; specific volume, number, and pages would need to be confirmed.}
-      \field{number}{01}
+      \field{number}{02}
       \field{title}{A comparative analysis of Network Intrusion Detection (NID) using Artificial Intelligence techniques for increase network security}
-      \field{volume}{06}
-      \field{year}{2025}
-      \field{pages}{1080\bibrangedash 1091}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{4014\bibrangedash 4025}
       \range{pages}{12}
       \verb{urlraw}
       \verb https://ijsra.net/sites/default/files/IJSRA-2024-2664.pdf
@@ -2767,54 +2592,100 @@
       \verb https://ijsra.net/sites/default/files/IJSRA-2024-2664.pdf
       \endverb
     \endentry
-    \entry{Enigma2025ETC}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=168e64f3c882f14b3de7bf7857c87874}{%
-           family={Smith},
+    \entry{CiscoSnort3Guide2024}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ba4689bc088946d361195a6a6dd4166}{%
+           family={Systems},
            familyi={S\bibinitperiod},
-           given={Jordan},
-           giveni={J\bibinitperiod},
+           given={Cisco},
+           giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b90e59d5fe1f23fa6490889aa2195b7a}{%
-           family={Patel},
-           familyi={P\bibinitperiod},
-           given={Ayesha},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=48c412b35d125279fe5671d264a8f1be}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Min-Jae},
-           giveni={M\bibinithyphendelim J\bibinitperiod},
-           givenun=1}}%
       }
-      \list{location}{1}{%
-        {San Francisco, USA}%
-      }
-      \list{publisher}{1}{%
-        {USENIX Association}%
-      }
-      \strng{namehash}{f4d40a8d0d01e1c66183023c5c411c1c}
-      \strng{fullhash}{f4d40a8d0d01e1c66183023c5c411c1c}
-      \strng{bibnamehash}{f4d40a8d0d01e1c66183023c5c411c1c}
-      \strng{authorbibnamehash}{f4d40a8d0d01e1c66183023c5c411c1c}
-      \strng{authornamehash}{f4d40a8d0d01e1c66183023c5c411c1c}
-      \strng{authorfullhash}{f4d40a8d0d01e1c66183023c5c411c1c}
+      \strng{namehash}{0ba4689bc088946d361195a6a6dd4166}
+      \strng{fullhash}{0ba4689bc088946d361195a6a6dd4166}
+      \strng{bibnamehash}{0ba4689bc088946d361195a6a6dd4166}
+      \strng{authorbibnamehash}{0ba4689bc088946d361195a6a6dd4166}
+      \strng{authornamehash}{0ba4689bc088946d361195a6a6dd4166}
+      \strng{authorfullhash}{0ba4689bc088946d361195a6a6dd4166}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the USENIX Enigma Conference}
-      \field{note}{To appear}
-      \field{title}{Encrypted Traffic Classification: State of the Art and Future Directions}
-      \field{year}{2025}
+      \field{note}{Accessed 2025-08-25}
+      \field{title}{Cisco Secure Firewall Management Center Snort 3 Configuration Guide}
+      \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.usenix.org/conference/enigma2025/presentation/smith
+      \verb https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/management-center/snort/740/snort3-configuration-guide-v74/overview.html
       \endverb
       \verb{url}
-      \verb https://www.usenix.org/conference/enigma2025/presentation/smith
+      \verb https://www.cisco.com/c/en/us/td/docs/security/secure-firewall/management-center/snort/740/snort3-configuration-guide-v74/overview.html
+      \endverb
+    \endentry
+    \entry{bistech2025networking}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b6389e42d062c49308879fce8b31b2b}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b6389e42d062c49308879fce8b31b2b}
+      \strng{fullhash}{9b6389e42d062c49308879fce8b31b2b}
+      \strng{bibnamehash}{9b6389e42d062c49308879fce8b31b2b}
+      \strng{authorbibnamehash}{9b6389e42d062c49308879fce8b31b2b}
+      \strng{authornamehash}{9b6389e42d062c49308879fce8b31b2b}
+      \strng{authorfullhash}{9b6389e42d062c49308879fce8b31b2b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bistech Blog}
+      \field{note}{Accessed on [Current Date, e.g., July 31, 2025]}
+      \field{title}{Top 5 Networking Challenges Facing IT Managers in 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://bistech.co.uk/blog-post/top-5-networking-challenges-facing-it-managers-in-2025-and-how-to-tackle-them/
+      \endverb
+      \verb{url}
+      \verb https://bistech.co.uk/blog-post/top-5-networking-challenges-facing-it-managers-in-2025-and-how-to-tackle-them/
+      \endverb
+    \endentry
+    \entry{pubmedcentral2025ids}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53e5498677370075036d3c47be28ce3f}{%
+           family={Waghmode},
+           familyi={W\bibinitperiod},
+           given={Pratik},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c209b024320bbd6fb58af771dc0a0482}
+      \strng{fullhash}{c209b024320bbd6fb58af771dc0a0482}
+      \strng{bibnamehash}{c209b024320bbd6fb58af771dc0a0482}
+      \strng{authorbibnamehash}{c209b024320bbd6fb58af771dc0a0482}
+      \strng{authornamehash}{c209b024320bbd6fb58af771dc0a0482}
+      \strng{authorfullhash}{c209b024320bbd6fb58af771dc0a0482}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Available via PubMed Central}
+      \field{title}{Intrusion detection system based on machine learning using least square support vector machine}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11978955/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC11978955/
       \endverb
     \endentry
     \entry{wang2023transferability}{article}{}
@@ -3007,6 +2878,86 @@
       \verb 10.1155/2021/6610675
       \endverb
     \endentry
+    \entry{zhang2025sedwnet}{article}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=9ac5c6e1891a9d327b6cf9dce9924eaa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=13dface5a88a5b0a932393ae7bf1bb59}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d32559a5fc6b9c48ad950f89259bc465}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24007f156eb06261431b2b25b64844f8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9113b5835843309fa06504ea7ee28c1d}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3c49b80af5e52e6c07ad982621dbe2}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51e5fb9f55c5b5d1edb17aea3861c908}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4829c2b1031e349e31cc560ede5eafe}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58bc7cbdfc91ac637a7eea5ac9bcbfa5}
+      \strng{fullhash}{38830b536ccf6f50c6bc19e0c6f90191}
+      \strng{bibnamehash}{58bc7cbdfc91ac637a7eea5ac9bcbfa5}
+      \strng{authorbibnamehash}{58bc7cbdfc91ac637a7eea5ac9bcbfa5}
+      \strng{authornamehash}{58bc7cbdfc91ac637a7eea5ac9bcbfa5}
+      \strng{authorfullhash}{38830b536ccf6f50c6bc19e0c6f90191}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symmetry}
+      \field{number}{4}
+      \field{title}{SE-DWNet: An Advanced ResNet-Based Model for Intrusion Detection with Symmetric Data Distribution}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{526}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sym17040526
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/sym17040526
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/sym17040526
+      \endverb
+    \endentry
     \entry{zhao2022anomaly}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c74e4d2d0104262e2773367d599fc4cc}{%
@@ -3054,22 +3005,22 @@
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=7c15b4eabd1bb89974100f3a4dbf11b7}{%
+        {{un=1,uniquepart=given,hash=ef49c46818ad29b72631eb82007b2054}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
-           given={Jian},
+           given={J.},
            giveni={J\bibinitperiod},
            givenun=1}}%
       }
       \list{publisher}{1}{%
         {MDPI}%
       }
-      \strng{namehash}{4e9b1a057030f7a89c3b2fb0b28cddab}
-      \strng{fullhash}{4e9b1a057030f7a89c3b2fb0b28cddab}
-      \strng{bibnamehash}{4e9b1a057030f7a89c3b2fb0b28cddab}
-      \strng{authorbibnamehash}{4e9b1a057030f7a89c3b2fb0b28cddab}
-      \strng{authornamehash}{4e9b1a057030f7a89c3b2fb0b28cddab}
-      \strng{authorfullhash}{4e9b1a057030f7a89c3b2fb0b28cddab}
+      \strng{namehash}{dd7f452c06e460d7ae2fef56cba94443}
+      \strng{fullhash}{dd7f452c06e460d7ae2fef56cba94443}
+      \strng{bibnamehash}{dd7f452c06e460d7ae2fef56cba94443}
+      \strng{authorbibnamehash}{dd7f452c06e460d7ae2fef56cba94443}
+      \strng{authornamehash}{dd7f452c06e460d7ae2fef56cba94443}
+      \strng{authorfullhash}{dd7f452c06e460d7ae2fef56cba94443}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -3146,35 +3097,26 @@
       \endverb
     \endentry
     \entry{zou2021survey}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=be94c104c2ea55db45ee61ddb9f14e9e}{%
            family={Zou},
            familyi={Z\bibinitperiod},
            given={Deming},
            giveni={D\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=5985953458bc8ecf1a15f7e8e58a9472}{%
-           family={Lo},
-           familyi={L\bibinitperiod},
-           given={Kin\bibnamedelima Fun},
-           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=03aeca2a672b32cdfbd91e01d2d9cbd9}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Hongmei},
-           giveni={H\bibinitperiod},
-           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ed9f28d9d1cd2a245e421c1aa38c77c6}{%
+           family={Ohters},
+           familyi={O\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{2b8998a4de666ec11fa722c4bb62d73e}
-      \strng{fullhash}{2b8998a4de666ec11fa722c4bb62d73e}
-      \strng{bibnamehash}{2b8998a4de666ec11fa722c4bb62d73e}
-      \strng{authorbibnamehash}{2b8998a4de666ec11fa722c4bb62d73e}
-      \strng{authornamehash}{2b8998a4de666ec11fa722c4bb62d73e}
-      \strng{authorfullhash}{2b8998a4de666ec11fa722c4bb62d73e}
+      \strng{namehash}{34b6011fbd27181018087e10a5a2ea69}
+      \strng{fullhash}{34b6011fbd27181018087e10a5a2ea69}
+      \strng{bibnamehash}{34b6011fbd27181018087e10a5a2ea69}
+      \strng{authorbibnamehash}{34b6011fbd27181018087e10a5a2ea69}
+      \strng{authornamehash}{34b6011fbd27181018087e10a5a2ea69}
+      \strng{authorfullhash}{34b6011fbd27181018087e10a5a2ea69}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -3189,8 +3131,6 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{guha2017tutorial}
-  \missing{le2021ensemble}
 \endrefsection
 \endinput
 

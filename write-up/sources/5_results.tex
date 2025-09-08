@@ -5,12 +5,39 @@ The purpose of this chapter is to present the main results of the experimental w
 \subsection{Dataset Characteristics after Pre-processing}
 
 This section of the chapter begins by describing the dataset used for the experiment. To recall, it is the CIC-IDS2017 dataset. The main characteristics of that dataset before pre-processing are given in Chapter 3, and Table \ref{tab:cic_ids2017_dataset_initial_characteristics}. After all the pre-processing steps described in Chapter 3, the dataset now has the following characteristics:\\
+\begin{table}[h!]
+	\centering
+	\caption{Class Distribution Before and After SMOTETomek Re-sampling}
+	\label{tab:cic_ids2017_dataset_initial_characteristics}
+	\begin{tabular}{lrr}
+		\toprule
+		\textbf{Category} & \textbf{Initial Count} & \textbf{Count After SMOTETomek} \\
+		\midrule
+		Benign & 12854 & 10000 \\
+		DDoS & 9751 & 10000 \\
+		\bottomrule
+	\end{tabular}
+	\vspace{0.5em}
+	\small
+	\caption*{Note: The counts in the "Count After SMOTETomek" column are an approximation based on the SMOTETomek re-sampling goal of balancing class representation.}
+\end{table}
 
-The total number of samples per category in the initial dataset is shown in Figure \ref{fig:number_of_samples_per_category_initial_dataset}. The total number of samples in each category in the final, ready-to-train dataset after the pre-processing is depicted in Figure \ref{fig:number_of_samples_per_category_post_smotetomek}.
+The total number of samples per category in the initial dataset is shown in Figure \ref{fig:dataset_distr}. The total number of samples in each category in the final, ready-to-train dataset after the pre-processing is depicted in Figure \ref{fig:number_of_samples_per_category_post_smotetomekt}.
 
-As can be seen from Figure \ref{fig:number_of_samples_per_category_initial_dataset}, almost all the dataset samples in the initial dataset belong to the category “Benign,” that is, benign traffic, with only around $6.5\%$ of the total data attributed to all other, attack categories combined. Such a large imbalance in the distribution of samples across the dataset’s classes can lead to a situation where the model trained on that dataset will most probably end up misclassifying all the samples of other, minority classes as the majority “Benign” class.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.85\textwidth]{assets/figures/smotetomek.png}
+	\caption{Data distribution before and after the application of the SMOTETomek sampling method and plots of the confusion matrix. }
+	\label{fig:number_of_samples_per_category_post_smotetomekt}
+\end{figure}
+\parencite{zhang2025sedwnet}\\
 
-As we can see from Figure \ref{fig:number_of_samples_per_category_post_smotetomek}, this issue has been successfully resolved by applying the SMOTETomek re-sampling technique described in Chapter 3, Section 3.4. Now the “Benign” category still contains the largest number of samples, but it is significantly smaller, and in total there are about the same number of samples in each class as before.
+As can be seen from Figure \ref{fig:number_of_samples_per_category_initial_dataset}, almost all the dataset samples in the initial dataset belong to the category “Benign,” that is, benign traffic, with only around 6.5\% of the total data attributed to all other, attack categories combined. Such a large imbalance in the distribution of samples across the dataset’s classes can lead to a situation where the model trained on that dataset will most probably end up misclassifying all the samples of other, minority classes as the majority “Benign” class.
+
+As we can see from Figure \ref{fig:number_of_samples_per_category_post_smotetomekt}, this issue has been successfully resolved by applying the SMOTETomek re-sampling technique described in Chapter 3, Section 3.4. Now the “Benign” category still contains the largest number of samples, but it is significantly smaller, and in total there are about the same number of samples in each class as before.
+
+The performance of the optimized XGBoost classifier on the test dataset is summarized in the confusion matrix shown in Figure \ref{fig:confusion_matrix_xgboost} . A confusion matrix is a powerful visualization of the model's performance, as it shows the number of correct and incorrect predictions for each class. The table below presents the same information in a tabular format for clarity.
+
 
 \subsection{Baseline Model Performance}
 
@@ -24,9 +51,9 @@ To determine the optimal set of hyperparameters for the XGBoost model to be used
 
 The process of searching for the optimal hyperparameters was run with 100 iterations, which, for a total of only 13 hyperparameters, gave it a good level of search space coverage, as each hyperparameter was visited many times over the course of the entire process. In other words, although the initial hyperparameter configuration space was very large, the grid/random search approach with multiple cross-validation iterations allowed this large configuration space to be adequately searched.
 
-The outcome of the hyperparameter tuning process was that the best set of hyperparameters consists of a combination of a significantly deeper tree structure (\texttt{max\_depth}) and a correspondingly lower learning rate (\texttt{learning\_rate}) combined with an increased number of estimators (\texttt{n\_estimators}), which is a common trade-off in gradient boosting algorithms. The optimal values of those hyperparameters are presented in Table \ref{tab:xgboost_best_hp_search}, which also shows that those hyperparameters and their optimal values significantly outperform the default baseline, as expected.
+The outcome of the hyperparameter tuning process was that the best set of hyperparameters consists of a combination of a significantly deeper tree structure (\texttt{max\_depth}) and a correspondingly lower learning rate (\texttt{learning\_rate}) combined with an increased number of estimators (\texttt{n\_estimators}), which is a common trade-off in gradient boosting algorithms. The optimal values of those hyperparameters are presented in figure \ref{fig:xgboost_best_hp_search}, which also shows that those hyperparameters and their optimal values significantly outperform the default baseline, as expected.
 
-In summary, the optimal hyperparameters for the XGBoost model for this work were found through the randomized/grid search hyperparameter tuning approach to be those presented in Table \ref{tab:xgboost_best_hp_search}.
+In summary, the optimal hyperparameters for the XGBoost model for this work were found through the randomized/grid search hyperparameter tuning approach to be those presented in figure \ref{fig:xgboost_best_hp_search}.
 
 \subsection{Optimized XGBoost Model Performance}
 
@@ -46,7 +73,7 @@ The confusion matrix in Figure \ref{fig:confusion_matrix_xgboost} is shown as a 
 
 This high True Positive Rate and low False Positive/False Negative Rate, in turn, is reflected in the high value of the model’s overall accuracy on the test dataset.
 
-Another aspect of the XGBoost model’s performance that is presented in detail is a table of per-class Precision, Recall, and F1-score values. The results of calculating these values are shown in Table \ref{tab:xgboost_testset_classification_metrics}. This table of per-class classification metrics demonstrates that this XGBoost model achieves high F1-scores (close to $1.0$) on most of the test dataset classes, including all the most common attack types, with the exception of the “PortScan” attack, which may indicate that our model is somewhat less able to learn to recognize those attacks, possibly due to their specific features. In any case, this table confirms that this model performs reliably well on this task. In particular, the high F1-Macro score of $0.98$ clearly indicates that this is not a case of our model learning to detect only the most common traffic types, especially the benign “normal” traffic, and completely ignoring all other, more rare attack types. The high F1-score values also indicate the high level of the recall metric for almost all the different types of attacks, which means that, in most cases, the model is able to correctly detect all the samples of those attack classes on the test dataset.
+Another aspect of the XGBoost model’s performance that is presented in detail is a table of per-class Precision, Recall, and F1-score values. The results of calculating these values are shown in figure \ref{fig:f-1_score}. This table of per-class classification metrics demonstrates that this XGBoost model achieves high F1-scores (close to $1.0$) on most of the test dataset classes, including all the most common attack types, with the exception of the “PortScan” attack, which may indicate that our model is somewhat less able to learn to recognize those attacks, possibly due to their specific features. In any case, this table confirms that this model performs reliably well on this task. In particular, the high F1-Macro score of $0.98$ clearly indicates that this is not a case of our model learning to detect only the most common traffic types, especially the benign “normal” traffic, and completely ignoring all other, more rare attack types. The high F1-score values also indicate the high level of the recall metric for almost all the different types of attacks, which means that, in most cases, the model is able to correctly detect all the samples of those attack classes on the test dataset.
 
 The final thing we want to present is the feature importance scores produced by the XGBoost model, which are plotted in Figure \ref{fig:xgboost_feature_importance}. In that figure, we can see that the features that the XGBoost model found to be the most informative (the top 10 in the plot) for this task, in order of importance, are \texttt{Flow Packets, Flow Duration, and Total Length of Fwd Packets}.
 

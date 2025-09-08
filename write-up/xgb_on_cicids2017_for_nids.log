@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.26)  8 SEP 2025 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.8.26)  8 SEP 2025 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,26 +1042,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'xgb_on_cicids2017_for_nids.bbl' found.
 
-(./xgb_on_cicids2017_for_nids.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                guha2017tutorial
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                le2021ensemble
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./xgb_on_cicids2017_for_nids.bbl)
 Package biblatex Info: Reference section=0 on input line 56.
 Package biblatex Info: Reference segment=0 on input line 56.
  (./sources/0_frontpage.tex
-<assets/figures/Leeds_Beckett_University_-_New_logo.png, id=594, 388.45125pt x 
+<assets/figures/Leeds_Beckett_University_-_New_logo.png, id=590, 388.45125pt x 
 258.9675pt>
 File: assets/figures/Leeds_Beckett_University_-_New_logo.png Graphic file (type
  png)
@@ -1072,15 +1057,13 @@ Package pdftex.def Info: assets/figures/Leeds_Beckett_University_-_New_logo.png
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assets/figures/Leeds_Bec
-kett_University_-_New_logo.png>] [2])
-(./sources/0a_declaration.tex
-<assets/figures/signature.png, id=610, 96.36pt x 63.1158pt>
+kett_University_-_New_logo.png>] [2]) (./sources/0a_declaration.tex
+<assets/figures/signature.png, id=606, 96.36pt x 63.1158pt>
 File: assets/figures/signature.png Graphic file (type png)
 <use assets/figures/signature.png>
 Package pdftex.def Info: assets/figures/signature.png  used on input line 11.
 (pdftex.def)             Requested size: 48.62872pt x 31.85155pt.
-) [1 <./assets/figures/signature.png>]
-(./sources/0b_ai_declaration.tex
+) [1 <./assets/figures/signature.png>] (./sources/0b_ai_declaration.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
 .
 
@@ -1121,21 +1104,21 @@ l.10 	\item
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/figures/data_count.png, id=1128, 466.74374pt x 232.9503pt>
+<assets/figures/data_count.png, id=1120, 466.74374pt x 232.9503pt>
 File: assets/figures/data_count.png Graphic file (type png)
 <use assets/figures/data_count.png>
 Package pdftex.def Info: assets/figures/data_count.png  used on input line 268.
 
 (pdftex.def)             Requested size: 364.6932pt x 182.02396pt.
 [21]
-<assets/figures/class_distr.png, id=1145, 466.74374pt x 232.9503pt>
+<assets/figures/class_distr.png, id=1137, 466.74374pt x 232.9503pt>
 File: assets/figures/class_distr.png Graphic file (type png)
 <use assets/figures/class_distr.png>
 Package pdftex.def Info: assets/figures/class_distr.png  used on input line 280
 .
 (pdftex.def)             Requested size: 364.6932pt x 182.02396pt.
  [22 <./assets/figures/data_count.png>]
-<assets/figures/dataset_shape.jpg, id=1158, 144.54pt x 207.174pt>
+<assets/figures/dataset_shape.jpg, id=1150, 144.54pt x 207.174pt>
 File: assets/figures/dataset_shape.jpg Graphic file (type jpg)
 <use assets/figures/dataset_shape.jpg>
 Package pdftex.def Info: assets/figures/dataset_shape.jpg  used on input line 3
@@ -1145,7 +1128,7 @@ Package pdftex.def Info: assets/figures/dataset_shape.jpg  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/figures/dataset_distr.jpg, id=1169, 144.54pt x 107.4414pt>
+<assets/figures/dataset_distr.jpg, id=1161, 144.54pt x 107.4414pt>
 File: assets/figures/dataset_distr.jpg Graphic file (type jpg)
 <use assets/figures/dataset_distr.jpg>
 Package pdftex.def Info: assets/figures/dataset_distr.jpg  used on input line 3
@@ -1153,222 +1136,187 @@ Package pdftex.def Info: assets/figures/dataset_distr.jpg  used on input line 3
 (pdftex.def)             Requested size: 364.6932pt x 271.10294pt.
 [24 <./assets/figures/dataset_shape.jpg>] [25 <./assets/figures/dataset_distr.j
 pg>]
-<assets/figures/dataset_heatmap.jpg, id=1186, 38.544pt x 38.544pt>
+<assets/figures/dataset_heatmap.jpg, id=1178, 38.544pt x 38.544pt>
 File: assets/figures/dataset_heatmap.jpg Graphic file (type jpg)
 <use assets/figures/dataset_heatmap.jpg>
 Package pdftex.def Info: assets/figures/dataset_heatmap.jpg  used on input line
  401.
 (pdftex.def)             Requested size: 194.50008pt x 194.56387pt.
  [26] [27 <./assets/figures/dataset_heatmap.jpg>]
-
-LaTeX Warning: Reference `subsec:feature-dist' on page 28 undefined on input li
-ne 430.
-
-
-LaTeX Warning: Reference `tab:dataset-summary-stats' on page 28 undefined on in
-put line 434.
+Overfull \hbox (1.45193pt too wide) in paragraph at lines 451--451
+[]|\T1/ptm/m/n/10.95 34475.5| 
+ []
 
 
-LaTeX Warning: Reference `tab:dataset-summary-stats' on page 28 undefined on in
-put line 436.
-
-[28] [29] [30] [31] [32] [33] [34]
-
-LaTeX Warning: Reference `sec:bg_imbalance' on page 35 undefined on input line 
-505.
+Overfull \hbox (1.45193pt too wide) in paragraph at lines 451--451
+[]|\T1/ptm/m/n/10.95 1583.16| 
+ []
 
 
-LaTeX Warning: Citation 'guha2017tutorial' on page 35 undefined on input line 5
-11.
+Overfull \hbox (1.45193pt too wide) in paragraph at lines 451--451
+[]|\T1/ptm/m/n/10.95 1171.82| 
+ []
 
-[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
-[50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
-[65]) [66] (./sources/4_research_methods.tex [67] [68] [69] [70]) [71]
-(./sources/5_results.tex
-
-LaTeX Warning: Reference `tab:cic_ids2017_dataset_initial_characteristics' on p
-age 72 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:number_of_samples_per_category_initial_dataset' o
-n page 72 undefined on input line 9.
-
-
-LaTeX Warning: Reference `fig:number_of_samples_per_category_post_smotetomek' o
-n page 72 undefined on input line 9.
-
-
-LaTeX Warning: Reference `fig:number_of_samples_per_category_initial_dataset' o
-n page 72 undefined on input line 11.
-
-
-LaTeX Warning: Reference `fig:number_of_samples_per_category_post_smotetomek' o
-n page 72 undefined on input line 13.
-
-[72]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-7.
+[28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
+[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57]
+[58] [59] [60] [61] [62] [63] [64] [65]) [66] (./sources/4_research_methods.tex
+[67] [68] [69] [70]) [71] (./sources/5_results.tex
+<assets/figures/smotetomek.png, id=1582, 438.55846pt x 324.9741pt>
+File: assets/figures/smotetomek.png Graphic file (type png)
+<use assets/figures/smotetomek.png>
+Package pdftex.def Info: assets/figures/smotetomek.png  used on input line 29.
+(pdftex.def)             Requested size: 413.32193pt x 306.28893pt.
+ [72] [73 <./assets/figures/smotetomek.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+4.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-
-LaTeX Warning: Reference `tab:xgboost_best_hp_search' on page 73 undefined on i
-nput line 27.
-
-
-LaTeX Warning: Reference `tab:xgboost_best_hp_search' on page 73 undefined on i
-nput line 29.
-
-[73]
-<assets/figures/results/confusion_matrix_xgboost.png, id=1591, 867.24pt x 722.7
+[74]
+<assets/figures/results/confusion_matrix_xgboost.png, id=1613, 867.24pt x 722.7
 pt>
 File: assets/figures/results/confusion_matrix_xgboost.png Graphic file (type pn
 g)
 <use assets/figures/results/confusion_matrix_xgboost.png>
 Package pdftex.def Info: assets/figures/results/confusion_matrix_xgboost.png  u
-sed on input line 41.
+sed on input line 68.
 (pdftex.def)             Requested size: 413.32193pt x 344.43292pt.
- [74 <./assets/figures/results/confusion_matrix_xgboost.png>]
-
-LaTeX Warning: Reference `tab:xgboost_testset_classification_metrics' on page 7
-5 undefined on input line 49.
-
-<assets/figures/results/xgboost_feature_importance.png, id=1601, 867.24pt x 578
+ [75] [76 <./assets/figures/results/confusion_matrix_xgboost.png>]
+<assets/figures/results/xgboost_feature_importance.png, id=1630, 867.24pt x 578
 .16pt>
 File: assets/figures/results/xgboost_feature_importance.png Graphic file (type 
 png)
 <use assets/figures/results/xgboost_feature_importance.png>
 Package pdftex.def Info: assets/figures/results/xgboost_feature_importance.png 
- used on input line 58.
+ used on input line 85.
 (pdftex.def)             Requested size: 389.00757pt x 259.34032pt.
-[75]
-<assets/figures/results/shap_summary_plot_overall.png, id=1609, 831.105pt x 476
+ [77]
+<assets/figures/results/shap_summary_plot_overall.png, id=1638, 831.105pt x 476
 .982pt>
 File: assets/figures/results/shap_summary_plot_overall.png Graphic file (type p
 ng)
 <use assets/figures/results/shap_summary_plot_overall.png>
 Package pdftex.def Info: assets/figures/results/shap_summary_plot_overall.png  
-used on input line 65.
+used on input line 92.
 (pdftex.def)             Requested size: 437.62888pt x 251.16167pt.
- [76 <./assets/figures/results/xgboost_feature_importance.png> <./assets/figure
-s/results/shap_summary_plot_overall.png>]
-<assets/figures/results/comparative_performance_summary.png, id=1619, 1011.78pt
+
+[78 <./assets/figures/results/xgboost_feature_importance.png> <./assets/figures
+/results/shap_summary_plot_overall.png>]
+<assets/figures/results/comparative_performance_summary.png, id=1647, 1011.78pt
  x 505.89pt>
 File: assets/figures/results/comparative_performance_summary.png Graphic file (
 type png)
 <use assets/figures/results/comparative_performance_summary.png>
 Package pdftex.def Info: assets/figures/results/comparative_performance_summary
-.png  used on input line 78.
+.png  used on input line 105.
 (pdftex.def)             Requested size: 389.00757pt x 194.50192pt.
-) [77 <./assets/figures/results/comparative_performance_summary.png>] (./source
-s/6_discussion.tex [78]
-
-LaTeX Warning: Citation 'le2021ensemble' on page 79 undefined on input line 25.
-
-
-[79] [80]) [81] (./sources/7_conclusion.tex [82]) [83] (./sources/8_ethics.tex)
-[84] [1] [2] [3] [4] [5] [6] [7] [8] (./sources/9_appendix.tex
-<assets/figures/outputs/1.png, id=1792, 1920.17375pt x 637.38126pt>
-File: assets/figures/outputs/1.png Graphic file (type png)
-<use assets/figures/outputs/1.png>
-Package pdftex.def Info: assets/figures/outputs/1.png  used on input line 4.
-(pdftex.def)             Requested size: 364.6932pt x 121.05507pt.
-<assets/figures/outputs/2.png, id=1793, 981.6675pt x 384.43625pt>
-File: assets/figures/outputs/2.png Graphic file (type png)
-<use assets/figures/outputs/2.png>
-Package pdftex.def Info: assets/figures/outputs/2.png  used on input line 11.
-(pdftex.def)             Requested size: 364.6932pt x 142.81992pt.
-<assets/figures/outputs/3.png, id=1794, 1049.9225pt x 865.2325pt>
-File: assets/figures/outputs/3.png Graphic file (type png)
-<use assets/figures/outputs/3.png>
-Package pdftex.def Info: assets/figures/outputs/3.png  used on input line 18.
-(pdftex.def)             Requested size: 364.6932pt x 300.5387pt.
- [9 <./assets/figures/outputs/1.png> <./assets/figures/outputs/2.png>]
-<assets/figures/outputs/4.png, id=1801, 1680.2775pt x 357.335pt>
-File: assets/figures/outputs/4.png Graphic file (type png)
-<use assets/figures/outputs/4.png>
-Package pdftex.def Info: assets/figures/outputs/4.png  used on input line 25.
-(pdftex.def)             Requested size: 364.6932pt x 77.55615pt.
-<assets/figures/outputs/5.png, id=1802, 880.28876pt x 684.5575pt>
-File: assets/figures/outputs/5.png Graphic file (type png)
-<use assets/figures/outputs/5.png>
-Package pdftex.def Info: assets/figures/outputs/5.png  used on input line 32.
-(pdftex.def)             Requested size: 364.6932pt x 283.60556pt.
- [10 <./assets/figures/outputs/3.png> <./assets/figures/outputs/4.png>]
-<assets/figures/outputs/6.png, id=1810, 987.69pt x 867.24pt>
-File: assets/figures/outputs/6.png Graphic file (type png)
-<use assets/figures/outputs/6.png>
-Package pdftex.def Info: assets/figures/outputs/6.png  used on input line 39.
-(pdftex.def)             Requested size: 364.6932pt x 320.21213pt.
- [11 <./assets/figures/outputs/5.png>]
-<assets/figures/outputs/7.png, id=1816, 720.6925pt x 544.0325pt>
-File: assets/figures/outputs/7.png Graphic file (type png)
-<use assets/figures/outputs/7.png>
-Package pdftex.def Info: assets/figures/outputs/7.png  used on input line 46.
-(pdftex.def)             Requested size: 364.6932pt x 275.29457pt.
- [12 <./assets/figures/outputs/6.png>]
-<assets/figures/outputs/8.png, id=1822, 811.03pt x 633.36626pt>
-File: assets/figures/outputs/8.png Graphic file (type png)
-<use assets/figures/outputs/8.png>
-Package pdftex.def Info: assets/figures/outputs/8.png  used on input line 53.
-(pdftex.def)             Requested size: 364.6932pt x 284.80923pt.
-<assets/figures/outputs/9.png, id=1823, 834.11626pt x 863.225pt>
-File: assets/figures/outputs/9.png Graphic file (type png)
-<use assets/figures/outputs/9.png>
-Package pdftex.def Info: assets/figures/outputs/9.png  used on input line 60.
-(pdftex.def)             Requested size: 364.6932pt x 377.42291pt.
- [13 <./assets/figures/outputs/7.png> <./assets/figures/outputs/8.png>]
-<assets/figures/outputs/10.png, id=1831, 1787.67876pt x 860.21375pt>
-File: assets/figures/outputs/10.png Graphic file (type png)
-<use assets/figures/outputs/10.png>
-Package pdftex.def Info: assets/figures/outputs/10.png  used on input line 67.
-(pdftex.def)             Requested size: 364.6932pt x 175.47865pt.
- [14 <./assets/figures/outputs/9.png>]
-[15 <./assets/figures/outputs/10.png>] [16] [17]
-<assets/figures/ethics.png, id=1851, 970.62625pt x 99.37125pt>
+) [79 <./assets/figures/results/comparative_performance_summary.png>] (./source
+s/6_discussion.tex [80] [81] [82])
+[83] (./sources/7_conclusion.tex [84]) [85] (./sources/8_ethics.tex
+<assets/figures/ethics.png, id=1689, 970.62625pt x 99.37125pt>
 File: assets/figures/ethics.png Graphic file (type png)
 <use assets/figures/ethics.png>
-Package pdftex.def Info: assets/figures/ethics.png  used on input line 223.
-(pdftex.def)             Requested size: 389.00757pt x 39.82663pt.
- [18])
+Package pdftex.def Info: assets/figures/ethics.png  used on input line 5.
+(pdftex.def)             Requested size: 486.25761pt x 49.78253pt.
+) [86 <./assets/figures/ethics.png>] [1] [2] [3] [4]
 
+Package biblatex Warning: No driver for 'unknown'.
+(biblatex)                Using fallback driver on input line 139.
+
+[5] [6] [7] [8] (./sources/9_appendix.tex
+<assets/figures/outputs/1.png, id=1823, 1920.17375pt x 637.38126pt>
+File: assets/figures/outputs/1.png Graphic file (type png)
+<use assets/figures/outputs/1.png>
+Package pdftex.def Info: assets/figures/outputs/1.png  used on input line 10.
+(pdftex.def)             Requested size: 364.6932pt x 121.05507pt.
+<assets/figures/outputs/2.png, id=1824, 981.6675pt x 384.43625pt>
+File: assets/figures/outputs/2.png Graphic file (type png)
+<use assets/figures/outputs/2.png>
+Package pdftex.def Info: assets/figures/outputs/2.png  used on input line 17.
+(pdftex.def)             Requested size: 364.6932pt x 142.81992pt.
+<assets/figures/outputs/3.png, id=1825, 1049.9225pt x 865.2325pt>
+File: assets/figures/outputs/3.png Graphic file (type png)
+<use assets/figures/outputs/3.png>
+Package pdftex.def Info: assets/figures/outputs/3.png  used on input line 24.
+(pdftex.def)             Requested size: 364.6932pt x 300.5387pt.
+ [9 <./assets/figures/outputs/1.png> <./assets/figures/outputs/2.png>]
+<assets/figures/outputs/4.png, id=1833, 1680.2775pt x 357.335pt>
+File: assets/figures/outputs/4.png Graphic file (type png)
+<use assets/figures/outputs/4.png>
+Package pdftex.def Info: assets/figures/outputs/4.png  used on input line 31.
+(pdftex.def)             Requested size: 364.6932pt x 77.55615pt.
+<assets/figures/outputs/5.png, id=1834, 880.28876pt x 684.5575pt>
+File: assets/figures/outputs/5.png Graphic file (type png)
+<use assets/figures/outputs/5.png>
+Package pdftex.def Info: assets/figures/outputs/5.png  used on input line 38.
+(pdftex.def)             Requested size: 364.6932pt x 283.60556pt.
+ [10 <./assets/figures/outputs/3.png> <./assets/figures/outputs/4.png>]
+<assets/figures/outputs/6.png, id=1840, 987.69pt x 867.24pt>
+File: assets/figures/outputs/6.png Graphic file (type png)
+<use assets/figures/outputs/6.png>
+Package pdftex.def Info: assets/figures/outputs/6.png  used on input line 45.
+(pdftex.def)             Requested size: 364.6932pt x 320.21213pt.
+ [11 <./assets/figures/outputs/5.png>]
+<assets/figures/outputs/7.png, id=1845, 720.6925pt x 544.0325pt>
+File: assets/figures/outputs/7.png Graphic file (type png)
+<use assets/figures/outputs/7.png>
+Package pdftex.def Info: assets/figures/outputs/7.png  used on input line 52.
+(pdftex.def)             Requested size: 364.6932pt x 275.29457pt.
+ [12 <./assets/figures/outputs/6.png>]
+<assets/figures/outputs/8.png, id=1851, 811.03pt x 633.36626pt>
+File: assets/figures/outputs/8.png Graphic file (type png)
+<use assets/figures/outputs/8.png>
+Package pdftex.def Info: assets/figures/outputs/8.png  used on input line 59.
+(pdftex.def)             Requested size: 364.6932pt x 284.80923pt.
+ [13 <./assets/figures/outputs/7.png>]
+<assets/figures/outputs/9.png, id=1857, 834.11626pt x 863.225pt>
+File: assets/figures/outputs/9.png Graphic file (type png)
+<use assets/figures/outputs/9.png>
+Package pdftex.def Info: assets/figures/outputs/9.png  used on input line 66.
+(pdftex.def)             Requested size: 364.6932pt x 377.42291pt.
+ [14 <./assets/figures/outputs/8.png>]
+<assets/figures/outputs/10.png, id=1864, 1787.67876pt x 860.21375pt>
+File: assets/figures/outputs/10.png Graphic file (type png)
+<use assets/figures/outputs/10.png>
+Package pdftex.def Info: assets/figures/outputs/10.png  used on input line 73.
+(pdftex.def)             Requested size: 364.6932pt x 175.47865pt.
+ [15 <./assets/figures/outputs/9.png>] [16 <./assets/figures/outputs/10.png>] [
+17] [18]) 
 AED: lastpage setting LastPage
-[19 <./assets/figures/ethics.png>] (./xgb_on_cicids2017_for_nids.aux)
-
-LaTeX Warning: There were undefined references.
-
+[19] (./xgb_on_cicids2017_for_nids.aux)
 Package rerunfilecheck Info: File `xgb_on_cicids2017_for_nids.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 44CC69E4C6126964A96A5D759C23D580;32361.
+(rerunfilecheck)             Checksum: CDCE2B183EC94B829352DECFE5E16DD3;32122.
 Package logreq Info: Writing requests to 'xgb_on_cicids2017_for_nids.run.xml'.
 \openout1 = `xgb_on_cicids2017_for_nids.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29666 strings out of 476091
- 546326 string characters out of 5794081
- 2051330 words of memory out of 5000000
- 49161 multiletter control sequences out of 15000+600000
- 567294 words of font info for 82 fonts, out of 8000000 for 9000
+ 29689 strings out of 476091
+ 546873 string characters out of 5794081
+ 2050330 words of memory out of 5000000
+ 49178 multiletter control sequences out of 15000+600000
+ 568434 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,12n,118p,1650b,2268s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,118p,1716b,2268s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on xgb_on_cicids2017_for_nids.pdf (112 pages, 3270096 bytes).
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on xgb_on_cicids2017_for_nids.pdf (114 pages, 3771332 bytes).
 PDF statistics:
- 2010 PDF objects out of 2073 (max. 8388607)
- 1825 compressed objects within 19 object streams
- 423 named destinations out of 1000 (max. 500000)
- 1287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2044 PDF objects out of 2073 (max. 8388607)
+ 1852 compressed objects within 19 object streams
+ 428 named destinations out of 1000 (max. 500000)
+ 1284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

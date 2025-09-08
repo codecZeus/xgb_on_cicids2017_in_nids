@@ -63,13 +63,12 @@ To optimize the performance of the XGBoost model, a systematic hyperparameter tu
 	\item scale\textunderscore pos\textunderscore weight: Dynamically calculated based on class imbalance, or tuned for specific minority classes. The tuning process utilized 5-fold cross-validation on the training set, with the F1-score (macro-averaged) as the primary metric for selecting the best model, given its robustness to class imbalance.
 \end{itemize}
 
-\subsection{Comparative Analysis (if applicable)}
+\subsection{Comparative Analysis}
 To contextualize the performance of the optimized XGBoost model, its results were compared against several other commonly used machine learning algorithms for NIDS. These algorithms included:
 \begin{itemize}
 	\item Random Forest (RF): Another ensemble tree-based method, known for its robustness and good performance.
-	\item Support Vector Machine (SVM): A powerful discriminative classifier, often used as a benchmark.
-	\item Decision Tree (DT): A foundational algorithm, providing a simpler comparison point.
-	\item K-Nearest Neighbors (KNN): A non-parametric, instance-based learning algorithm. Each comparative model was trained and evaluated on the exact same pre-processed CIC-IDS2017 dataset splits and using the identical set of evaluation metrics to ensure a fair and direct comparison. Basic hyperparameter tuning was performed for these comparative models to ensure reasonable performance.
+	\item LightGBM: A gradient boosting framework developed by Microsoft that uses histogram-based algorithms and leaf-wise tree growth, enabling faster training and lower memory usage. It is particularly efficient for large-scale, high-dimensional datasets.
+	\item CatBoost: A gradient boosting algorithm developed by Yandex that is optimized for categorical feature handling without extensive preprocessing. It uses ordered boosting and symmetric trees to reduce overfitting and improve generalization performance.
 \end{itemize}
 
 %\subsection{Ethical Considerations}

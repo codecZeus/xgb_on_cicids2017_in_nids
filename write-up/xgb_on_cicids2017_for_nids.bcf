@@ -2370,8 +2370,7 @@
     <bcf:citekey order="10" intorder="1">semanticscholar2025imbalanced</bcf:citekey>
     <bcf:citekey order="10" intorder="2">arxiv2025defensive</bcf:citekey>
     <bcf:citekey order="11" intorder="1">unb2017cicids</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">rdiscovery2025cicids</bcf:citekey>
-    <bcf:citekey order="11" intorder="3">pubmedcentral2025ids</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">pubmedcentral2025ids</bcf:citekey>
     <bcf:citekey order="12" intorder="1">Zhou2024TLS13Survey</bcf:citekey>
     <bcf:citekey order="12" intorder="2">Cerasuolo2025Adaptable</bcf:citekey>
     <bcf:citekey order="12" intorder="3">KBS2025Datasets</bcf:citekey>
@@ -2423,7 +2422,6 @@
     <bcf:citekey order="41" intorder="2">QUICBackbone2023</bcf:citekey>
     <bcf:citekey order="42" intorder="1">AppliedIntelligence2025Benchmark</bcf:citekey>
     <bcf:citekey order="43" intorder="1">Zhou2024TLS13Survey</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">Enigma2025ETC</bcf:citekey>
     <bcf:citekey order="44" intorder="1">Zhou2024TLS13Survey</bcf:citekey>
     <bcf:citekey order="44" intorder="2">VisQUIC2024</bcf:citekey>
     <bcf:citekey order="45" intorder="1">EncryptedNIDS2022</bcf:citekey>
@@ -2492,23 +2490,23 @@
     <bcf:citekey order="94" intorder="1">article5672</bcf:citekey>
     <bcf:citekey order="95" intorder="1">articlers453</bcf:citekey>
     <bcf:citekey order="96" intorder="1">sharafaldin2018toward</bcf:citekey>
-    <bcf:citekey order="97" intorder="1">kumar2021cicids</bcf:citekey>
-    <bcf:citekey order="98" intorder="1">shafi2022comprehensive</bcf:citekey>
-    <bcf:citekey order="99" intorder="1">al2022cicids</bcf:citekey>
-    <bcf:citekey order="100" intorder="1">kumar2021cicids</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">al2022cicids</bcf:citekey>
-    <bcf:citekey order="102" intorder="1">mahfouz2022systematic</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">sharafaldin2018toward</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">al2020survey</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">mahfouz2022systematic</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">aldhubaib2024network</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">al2022cicids</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">kumar2021cicids</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">habeeb2024two</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">mahfouz2022systematic</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">sharafaldin2018toward</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">kumar2021cicids</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">guha2017tutorial</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">sharafaldin2018toward</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">kumar2021cicids</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">shafi2022comprehensive</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">al2022cicids</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">kumar2021cicids</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">al2022cicids</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">mahfouz2022systematic</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">sharafaldin2018toward</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">al2020survey</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">mahfouz2022systematic</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">aldhubaib2024network1</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">al2022cicids</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">kumar2021cicids</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">habeeb2024two</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">mahfouz2022systematic</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">sharafaldin2018toward</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">kumar2021cicids</bcf:citekey>
     <bcf:citekey order="114" intorder="1">al2022cicids</bcf:citekey>
     <bcf:citekey order="115" intorder="1">mahfouz2022systematic</bcf:citekey>
     <bcf:citekey order="116" intorder="1">al2022cicids</bcf:citekey>
@@ -2586,7 +2584,8 @@
     <bcf:citekey order="182" intorder="2">al2022cicids</bcf:citekey>
     <bcf:citekey order="183" intorder="1">mahfouz2022systematic</bcf:citekey>
     <bcf:citekey order="183" intorder="2">aldhubaib2024network</bcf:citekey>
-    <bcf:citekey order="184" intorder="1">le2021ensemble</bcf:citekey>
+    <bcf:citekey order="184" intorder="1">zhang2025sedwnet</bcf:citekey>
+    <bcf:citekey order="185" intorder="1">le2021ensemble</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
