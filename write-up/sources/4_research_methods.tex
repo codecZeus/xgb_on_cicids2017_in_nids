@@ -47,7 +47,7 @@ Given the highly imbalanced nature of the CIC-IDS2017 dataset, a comprehensive s
 \end{itemize}
 
 \subsection{Tools and Environment}
-All experiments were conducted using Python (version X.X) as the programming language. Key libraries included pandas for data manipulation, numpy for numerical operations, scikit-learn for pre-processing and evaluation tools, xgboost for the model implementation, and matplotlib and seaborn for data visualization. The experiments were performed on a machine with [mention CPU/GPU, RAM, e.g., Intel Core i7 processor, 16GB RAM, and NVIDIA GeForce RTX 3060 GPU].
+All experiments were conducted using Python (version 3.11.2) as the programming language. Key libraries included pandas for data manipulation, numpy for numerical operations, scikit-learn for pre-processing and evaluation tools, xgboost for the model implementation, and matplotlib and seaborn for data visualization. The experiments were performed on a machine with CPU Intel(R) Core(TM) i9-11900H,Memory 16GB (2x8GB DDR4) and GPU NVIDIA GeForce RTX 3070 Mobile / Max-Q.
 
 \subsection{Hyperparameter Tuning}
 To optimize the performance of the XGBoost model, a systematic hyperparameter tuning process was undertaken. Initially, a broad Randomized Search Cross-Validation (RandomizedSearchCV from scikit-learn) was performed to explore a wide range of parameter combinations efficiently. This was followed by a more focused Grid Search Cross-Validation (GridSearchCV) around the promising regions identified by the randomized search. The key hyperparameters tuned included:
