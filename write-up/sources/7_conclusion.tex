@@ -6,16 +6,33 @@ In terms of a more detailed summary of this research and the main results of tha
 
 On the other hand, this dissertation has also, on a more general level, demonstrated the high level of effectiveness of using sufficiently modern and powerful machine learning algorithms, especially those based on the well-established ensemble learning methods. This dissertation has also, in addition to the main results in terms of specific numbers and graphs, established a more detailed and comprehensive end-to-end pipeline for using those algorithms to solve the NIDS problem on a new and previously unstudied dataset.
 
+
+
 \subsection{Future Work} 
 
-The following future work is thus expected in this area:
+Future work could look at extending and improving the current model for generality, robustness and real-world performance in a number of ways, including:
 
-\begin{itemize} 
-\item \textbf{Other Datasets: } The model trained and tested on the CIC-IDS2017 dataset could be used to test its performance on other contemporary NIDS datasets, such as CSE-CIC-IDS2018, UNSW-NB15, or newer IoT/industrial control system datasets. This would provide a better understanding of the generality and robustness of the model across different network environments and attack types.
-\item \textbf{Feature Engineering: } While this work has used a well-established feature extraction tool, additional features could be manually engineered or extracted using more advanced deep learning models, such as graph neural networks to capture more complex patterns or temporal dependencies in the network traffic.
-\item \textbf{Hybrid Models: } A combination of XGBoost with deep learning approaches, where deep models act as feature extractors and XGBoost as the classifier, could be explored to leverage the strengths of both methodologies.
-\item \textbf{Explainable AI (XAI): } Methods from XAI could be integrated to provide more insights into the decision-making process of the XGBoost model, potentially using techniques like SHAP or LIME to interpret individual predictions. This would be crucial for the model's adoption by cybersecurity professionals.
-\item \textbf{Real-time Implementation: } The practical challenges of real-time data ingestion, processing, and decision-making latency in a live NIDS environment should be considered and investigated.
-\item \textbf{Adversarial Attacks: } The model's robustness to adversarial attacks, specifically designed to evade detection, could be studied, and defense mechanisms could be developed and tested.
-\item \textbf{Specific Attack Types: } Further studies could focus on the detection of specific attack categories that are more challenging or rare in the dataset, using specialized approaches or targeted data augmentation techniques.
-\end{itemize} 
+\paragraph{Evaluation on Other Datasets: } Although the provided code used the CIC-IDS2017 dataset, testing the model on additional datasets would provide a more comprehensive assessment of its performance on different network environments and attack scenarios. Alternative modern datasets include CSE-CIC-IDS2018, UNSW-NB15, IoT, and industrial control system datasets.
+
+\paragraph{Feature Engineering and Hybrid Models: } In this project, well-established feature extraction methods from the relevant work were used. Manual feature engineering or automated feature extraction using deep learning, such as \textbf{graph neural networks}, could be leveraged to capture more complex spatial and temporal dependencies in traffic for better performance. Hybrid models, that combine classical ML algorithms such as XGBoost with deep learning models, can be explored to leverage the advantages of both. For instance, deep models can be used as feature extractors followed by a classifier such as XGBoost.
+
+\paragraph{Explainable AI (XAI): } XAI methods, such as \textbf{SHAP} or \textbf{LIME}, could be used to gain interpretable insights into the models, which is a key requirement for industrial adoption of ML and DL for operational cybersecurity use-cases where understanding why a decision is made is as important as the decision itself.
+
+\paragraph{Real-Time Implementation: } The real-time performance of the model in a deployed NIDS scenario, including challenges such as data ingestion, processing latency, and timely decision-making should be considered for future work.
+
+\paragraph{Adversarial Robustness: } The robustness of the model to \textbf{adversarial attacks}, designed to evade detection or poison the training data, is a key property that should be studied for future work. Defensive mechanisms, such as adversarial training, feature smoothing, and ensemble models, can be employed to improve robustness.
+
+\paragraph{Detection of Specific and Rare Attack Types: } Focused future work could look at specific or rare attack types which are more difficult to detect, and attempt to improve performance on them, for example by using focused data augmentation or specialized detection strategies.
+
+\paragraph{Incremental Learning and Hybrid NIDS Frameworks: } The model could be extended to use \textbf{incremental learning} to adapt to new network traffic over time, instead of retraining from scratch each time new data becomes available. A \textbf{hybrid NIDS framework} combining both classical ML models for the first level of detection and deep learning models for further investigation can also be explored to provide both efficiency and high detection performance.
+
+\paragraph{Modern Traffic: } Extending evaluations to datasets that include modern protocols such as \textbf{TLS 1.3} and \textbf{QUIC}, as well as new and evolving attack scenarios (e.g. ransomware, cryptocurrency mining, IoT-based attacks) will help to ensure the real-world relevance of the model.
+
+
+
+\subsection{Final Remarks} 
+This work overcame several  limitations of network intrusion detection (IDS) systems. The new dataset used for this dissertation provided realistic inputs, the employed ML models were more easily scalable and applicable for real world scenarios, while the potential of adversarial attacks on the NIDS was at least briefly taken into account. On this basis, the current work may serve as a stepping stone for further research in the domain of NIDS with an eye towards more fine-grained performance-efficiency tradeoffs.
+
+The proof of concept shown in this work highlights the fact that classical machine learning models can be used to design an NIDS. Practical limitations of more advanced deep learning approaches, like requirements on computation time and the issue of class imbalance in datasets, can be mitigated via model choice and simple techniques like oversampling the minority classes in the dataset. Performance with respect to a few of the less common types of attacks is lacking, but at least provides a meaningful baseline.
+
+In conclusion, the current work shows that classical ML models can be a reasonable and efficient way to design a network intrusion detection system under the constraint of limited computational power.

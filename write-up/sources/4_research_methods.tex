@@ -1,5 +1,5 @@
 \subsection{Introduction}
-This chapter outlines the comprehensive methodology employed to achieve the research objectives, focusing on the systematic approach to data preparation, model development, and evaluation. It details the steps taken to process the raw CIC-IDS2017 dataset, configure the XGBoost model, and establish a robust experimental setup for performance assessment. The aim is to ensure reproducibility and provide a clear understanding of the research design.
+This chapter outlines the comprehensive methodology employed to achieve the research objectives, focusing on the systematic approach to data preparation, model development, and evaluation. It details the steps taken to process the raw CIC-IDS2017 dataset, configure the XGBoost model, and establish a robust experimental setup for performance assessment. The aim is to ensure reproducibility and provide a clear understanding of the research design. 
 
 \subsection{Dataset Description: CIC-IDS2017}
 The Canadian Institute for Cybersecurity (CIC) CIC-IDS2017 dataset was chosen for this study due to its realistic representation of modern network traffic, including both benign and various common attack scenarios. The dataset comprises network flow data captured over five days (Monday to Friday), with Monday representing normal activity and the subsequent days incorporating different types of attacks. It consists of over 2.8 million network flows, each characterized by 78 features extracted using CICFlowMeter, along with a 'Label' column indicating whether the flow is benign or malicious (and the specific attack type if malicious). The attacks covered include Brute Force FTP, Brute Force SSH, DoS (GoldenEye, Hulk, Slowhttptest, Slowloris), Heartbleed, Web Attack (Brute Force, XSS, Sql Injection), Infiltration, Botnet, and DDoS. The dataset is publicly available in CSV format, making it suitable for machine learning research.
@@ -22,7 +22,70 @@ While tree-based models like XGBoost are less sensitive to feature scaling than 
 No new features were explicitly engineered beyond the original 78 features provided by CICFlowMeter. The focus was on leveraging the rich set of existing flow-based features.
 
 \subsection{Handling Class Imbalance}
-The CIC-IDS2017 dataset exhibits significant class imbalance, with the 'Benign' class being overwhelmingly dominant and some attack classes having very few instances. To mitigate this, the scale\textunderscore pos\textunderscore weight parameter in XGBoost was utilized. This parameter assigns a weight to the positive class in binary classification or to minority classes in multi-class classification, effectively penalizing misclassifications of the under-represented classes more heavily. The weights were calculated as the ratio of the number of negative samples to the number of positive samples for each attack class relative to the benign class. Additionally, for severe minority classes, a limited application of Synthetic Minority Over-sampling Technique (SMOTE) was considered for the training set, to generate synthetic samples for the smallest attack categories, ensuring the model has sufficient examples to learn from.
+The CIC-IDS2017 dataset exhibits significant class imbalance, with the 'Benign' class being overwhelmingly dominant and some attack classes having very few instances. To mitigate this, the scale\textunderscore pos\textunderscore weight parameter in XGBoost was utilized. This parameter assigns a weight to the positive class in binary classification or to minority classes in multi-class classification, effectively penalizing misclassifications of the under-represented classes more heavily. The weights were calculated as the ratio of the number of negative samples to the number of positive samples for each attack class relative to the benign class. Additionally, for severe minority classes, a limited application of Synthetic Minority Over-sampling Technique (SMOTE) was considered for the training set, to generate synthetic samples for the smallest attack categories, ensuring the model has sufficient examples to learn from. However, there are other methods, such as ADASYN and ensemble balancing, unfortunately for this dissertation, these methods are not utilised.
+
+\subsection{Justification for Classical Machine Learning Models} 
+We only used classical machine learning models (Decision Trees, Random Forest, XGBoost). The main reason for this choice is the limited computational resources. Furthermore, the smaller dataset size often does not allow for deep learning approaches to be successfully trained (i.e. without overfitting) with enough data. The classical ML approach also allows for faster training and less memory consumption, which is a must for a computationally efficient NIDS.
+
+\section{Workflow and Architecture} 
+The NIDS workflow and architecture will involve several components:
+\begin{enumerate} 
+	\item Data Preprocessing: Cleaning, normalization, and encoding of categorical features. 
+	\item Feature Selection: Feature selection using importance metrics, as well as dimensionality reduction.
+	\item Model Training: Classical ML models will be trained with cross-validation to tune hyperparameters.
+	\item Evaluation: Performance will be evaluated using accuracy, precision, recall, F1-score, and computational efficiency metrics.
+\end{enumerate} 
+
+The architecture diagram or flow graph, which outlines the the model process from data pre-processing to the result analysis is shown in figure \ref{fig:workflow}
+
+\begin{figure}[H]
+	\resizebox{\linewidth}{!}{
+		\begin{forest}
+			for tree={
+				draw,
+				rounded corners,
+				align=center,
+				fill=blue!10,
+				minimum width=3.2cm,
+				font=\small,
+				l sep=10mm,
+				s sep=7mm
+			}
+			[Start Workflow, fill=gray!20
+			[Phase 1: Libraries, fill=blue!20, edge path={\noexpand\path[draw, ->] 
+				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+			[Import Libraries, fill=blue!10]
+			]
+			[Phase 2: Pre-processing, fill=green!20, edge path={\noexpand\path[draw, ->] 
+				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+			[Load \& Clean Data, fill=green!10]
+			[Pre-processing, fill=green!10]
+			[Split \& Balance, fill=green!10]
+			]
+			[Phase 3: Modeling, fill=orange!20, edge path={\noexpand\path[draw, ->] 
+				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+			[Feature Selection, fill=orange!10]
+			[XGBoost Tuning, fill=orange!10]
+			[Comparative Models, fill=orange!10
+			[Training LightGBM, fill=orange!5]
+			[Training CatBoost, fill=orange!5]
+			]
+			]
+			[Phase 4: Evaluation, fill=red!20, edge path={\noexpand\path[draw, ->] 
+				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+			[Confusion Matrix + Summary, fill=red!10]
+			[Feature Importance, fill=red!10]
+			[SHAP \& Save Model, fill=red!10]
+			]
+			]
+		\end{forest}
+	}
+	\caption{architecture pipeline diagram of the entire process of model training and result analysis}
+	\label{fig:workflow}
+\end{figure}
+
+\subsection{Computational Efficiency Considerations} 
+We have chosen classical ML models over deep learning approaches for their fast training time, low memory usage, and scalability. In particular, XGBoost has options for parallelized and incremental training and updates, making it well-suited for real-time deployment.
 
 \subsection{Model Selection}
 XGBoost (Extreme Gradient Boosting) was selected as the primary machine learning algorithm for this intrusion detection system. This choice is justified by XGBoost's proven capabilities in handling large, tabular datasets, its efficiency, scalability, and superior performance in numerous classification tasks. As a gradient boosting framework, it builds an ensemble of decision trees sequentially, correcting the errors of previous trees. Its built-in regularization techniques (L1 and L2) help prevent overfitting, and its ability to handle missing values and support parallel processing makes it highly suitable for the characteristics of the CIC-IDS2017 dataset.

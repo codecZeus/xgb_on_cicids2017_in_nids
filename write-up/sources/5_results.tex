@@ -2,6 +2,23 @@
 
 The purpose of this chapter is to present the main results of the experimental work. It shows the results of applying the pre-processing techniques to the CIC-IDS2017 dataset and creating the clean, numerical training dataset, as well as training the XGBoost model on that data and tuning its hyperparameters. In addition, this chapter presents a detailed analysis of the XGBoost algorithm’s performance on the separate test set. The results of that analysis, in addition to the feature importance values extracted from the trained model, will be used to answer the research questions posed earlier in the dissertation.
 
+\subsection{Model Performance} 
+The classical ML models achieved high accuracy on majority classes, but minority classes, Heartbleed and Infiltration, had lower recall. This is in line with our expectations due to the class imbalance issue.
+
+\subsection{Computational Efficiency} 
+XGBoost has several clear benefits in terms of computational efficiency:
+\begin{itemize} 
+	\item Lower training time in comparison to the deep learning approaches.
+	\item Low memory consumption, allowing the model to be trained and used on low-end systems, i.e., small number of CPU cores, and RAM.
+	\item Highly scalable to larger network traffic datasets.
+\end{itemize} 
+
+\subsection{Minority Class Challenges} 
+We were not satisfied with the performance on rare attack types, such as Heartbleed. This can be addressed by using synthetic data generation techniques like ADASYN or incorporating ensemble methods.
+
+\subsection{Benchmarking Against Deep Learning Models} 
+We did not include deep learning models in our experiments due to computational constraints. However, the literature suggests CNNs and LSTMs outperform classical ML on complex and evolving attack patterns, highlighting a trade-off between accuracy and computational efficiency.
+
 \subsection{Dataset Characteristics after Pre-processing}
 
 This section of the chapter begins by describing the dataset used for the experiment. To recall, it is the CIC-IDS2017 dataset. The main characteristics of that dataset before pre-processing are given in Chapter 3, and Table \ref{tab:cic_ids2017_dataset_initial_characteristics}. After all the pre-processing steps described in Chapter 3, the dataset now has the following characteristics:\\

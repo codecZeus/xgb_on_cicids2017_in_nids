@@ -52,6 +52,27 @@
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage[edges]{forest}
+\usepackage{pdflscape}
+
+\usetikzlibrary{shadows,arrows.meta,fit,positioning}
+
+% --- Node Styles ---
+\tikzset{
+	startstop/.style = {rectangle, rounded corners, minimum width=3cm, minimum height=1cm,
+		text centered, draw=black, fill=red!30, drop shadow},
+	process/.style = {rectangle, minimum width=3cm, minimum height=1cm, 
+		text centered, text width=5cm, draw=black, fill=orange!30, drop shadow},
+	io/.style = {trapezium, trapezium left angle=70, trapezium right angle=110,
+		minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30, drop shadow},
+	phasebox/.style = {rectangle, draw=purple!70, thick, rounded corners, fill=purple!5,
+		inner sep=0.5cm, drop shadow},
+	line/.style = {draw, -{Latex}, very thick}
+}
+
 
 % Unified hyperlink setup — load before biblatex
 \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
