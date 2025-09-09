@@ -27,7 +27,7 @@ The CIC-IDS2017 dataset exhibits significant class imbalance, with the 'Benign' 
 \subsection{Justification for Classical Machine Learning Models} 
 We only used classical machine learning models (Decision Trees, Random Forest, XGBoost). The main reason for this choice is the limited computational resources. Furthermore, the smaller dataset size often does not allow for deep learning approaches to be successfully trained (i.e. without overfitting) with enough data. The classical ML approach also allows for faster training and less memory consumption, which is a must for a computationally efficient NIDS.
 
-\section{Workflow and Architecture} 
+\subsection{Workflow and Architecture} 
 The NIDS workflow and architecture will involve several components:
 \begin{enumerate} 
 	\item Data Preprocessing: Cleaning, normalization, and encoding of categorical features. 
@@ -36,7 +36,7 @@ The NIDS workflow and architecture will involve several components:
 	\item Evaluation: Performance will be evaluated using accuracy, precision, recall, F1-score, and computational efficiency metrics.
 \end{enumerate} 
 
-The architecture diagram or flow graph, which outlines the the model process from data pre-processing to the result analysis is shown in figure \ref{fig:workflow}
+The architecture diagram or flow graph, which outlines the the model process from data pre-processing to the result analysis is shown in figure \ref{fig:workflow_pipeline}
 
 \begin{figure}[H]
 	\resizebox{\linewidth}{!}{
@@ -53,17 +53,17 @@ The architecture diagram or flow graph, which outlines the the model process fro
 			}
 			[Start Workflow, fill=gray!20
 			[Phase 1: Libraries, fill=blue!20, edge path={\noexpand\path[draw, ->] 
-				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+				(!u.south) -- +(0,-5mm) -| (.child anchor);}
 			[Import Libraries, fill=blue!10]
 			]
 			[Phase 2: Pre-processing, fill=green!20, edge path={\noexpand\path[draw, ->] 
-				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+				(!u.south) -- +(0,-5mm) -| (.child anchor);}
 			[Load \& Clean Data, fill=green!10]
 			[Pre-processing, fill=green!10]
 			[Split \& Balance, fill=green!10]
 			]
 			[Phase 3: Modeling, fill=orange!20, edge path={\noexpand\path[draw, ->] 
-				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+				(!u.south) -- +(0,-5mm) -| (.child anchor);}
 			[Feature Selection, fill=orange!10]
 			[XGBoost Tuning, fill=orange!10]
 			[Comparative Models, fill=orange!10
@@ -72,7 +72,7 @@ The architecture diagram or flow graph, which outlines the the model process fro
 			]
 			]
 			[Phase 4: Evaluation, fill=red!20, edge path={\noexpand\path[draw, ->] 
-				(!u.south) -- +(0,-5mm) -| (.child anchor)\forestOchildanchor\forestOedge;}
+				(!u.south) -- +(0,-5mm) -| (.child anchor);}
 			[Confusion Matrix + Summary, fill=red!10]
 			[Feature Importance, fill=red!10]
 			[SHAP \& Save Model, fill=red!10]
@@ -81,7 +81,7 @@ The architecture diagram or flow graph, which outlines the the model process fro
 		\end{forest}
 	}
 	\caption{architecture pipeline diagram of the entire process of model training and result analysis}
-	\label{fig:workflow}
+	\label{fig:workflow_pipeline}
 \end{figure}
 
 \subsection{Computational Efficiency Considerations} 
@@ -134,4 +134,3 @@ To contextualize the performance of the optimized XGBoost model, its results wer
 	\item CatBoost: A gradient boosting algorithm developed by Yandex that is optimized for categorical feature handling without extensive preprocessing. It uses ordered boosting and symmetric trees to reduce overfitting and improve generalization performance.
 \end{itemize}
 
-%\subsection{Ethical Considerations}
