@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{geometry}
+\geometry{top=1.2cm}
 
 \title{Network Intrusion Detection Using XGBoost on CIC-IDS2017 Dataset}
 \author{Sangay Thinley}
@@ -13,7 +15,8 @@
 \frame{\titlepage}
 
 % Slide 1: Introduction
-\begin{frame}{Introduction}
+\begin{frame}
+{Introduction}
 \begin{itemize}
     \item Focus: Develop an efficient NIDS using classical ML.
     \item Dataset: CIC-IDS2017 – realistic network traffic with benign and multiple attack types.
@@ -53,7 +56,7 @@
 \begin{frame}{Experimental Setup}
 \begin{itemize}
     \item Train/Test split: 70/30 with stratified sampling.
-    \item Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC, False Positive Rate.
+    \item Metrics: Accuracy, F1-score (F-1 Macro and F-1 Weighted).
     \item Hyperparameter tuning: Randomized + Grid Search with 5-fold CV.
 \end{itemize}
 \end{frame}
